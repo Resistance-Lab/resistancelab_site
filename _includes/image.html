@@ -1,0 +1,18 @@
+<figure>
+  {% if include.urls %}
+    <div class="image__wrapper image__wrapper--multiple">
+      {% assign urls = include.urls | split: ' ' %}
+      {% for url in urls %}
+        <img src="{{ url }}" alt="{{ include.description }}">
+      {% endfor %}
+    </div>
+  {% else %}
+    <img src="{{ include.url }}" alt="{{ include.description }}">
+  {% endif %}
+  {% if include.description %}
+    <figcaption>
+      <span class="desc" markdown="1">
+        {{ include.description }}
+      </span>
+    </figcaption>
+</figure>

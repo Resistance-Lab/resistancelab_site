@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="{{ site.url }}/site.webmanifest">
+    <link rel="mask-icon" href="{{ site.url }}/safari-pinned-tab.svg" color="{{ site.theme_primary_colour }}">
+    <meta name="msapplication-TileColor" content="{{ site.theme_primary_colour }}">
+    <meta name="theme-color" content="{{ site.theme_primary_colour }}">
+    <!-- Open Graph -->
+    <meta property="og:image:width" content="279">
+    <meta property="og:image:height" content="279">
+    <meta property="og:site_name" content="{{ site.site_name }}">
+
+  {%- if page.title %}
+    <title>{{ page.title }} | {{ site.site_name }}</title>
+    <meta property="og:title" content="{{ page.title }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+  {% else %}
+    <title>{{ site.site_name }}</title>
+    <meta property="og:title" content="{{ site.site_name }}">
+    <meta name="twitter:title" content="{{ site.site_name }}">
+  {% endif %}
+
+  {%- if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
+  {% else %}
+    <meta name="twitter:description" content="{{ site.site_description }}">
+    <meta property="og:description" content="{{ site.site_description }}">
+  {% endif %}
+
+  {%- if page.social-image-square %}
+    <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.social-image-square }}">
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}/og-image.jpg">
+  {% endif %}
+
+  {%- if page.social-image-wide %}
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.social-image-wide }}">
+  {% else %}
+    <meta name="twitter:image" content="{{ site.url }}/og-image-2_1.png">
+  {% endif %}
+
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@{{ site.contact_twitter }}">
+    <meta name="twitter:creator" content="@{{ site.contact_twitter }}">
+
+  {%- if jekyll.environment == "production" %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138415980-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-138415980-2');
+    </script>
+  {%- endif %}
+</head>
+<body>
+  <div class="page__wrapper">
+    <header>
+      <div class="header">
+        <h2 class="header__title">
+          <a href="/">
+            <div class="header__h2">{{ site.site_name }}</div>
+            <div class="header__logo" role="presentation"></div>
+          </a>
+        </h2>
+        <nav class="header__nav nav" id="js-nav">
+          <ul>
+            <li {% if page.url == "/who-we-are.html" %}class="active"{% endif %}>
+              <a href="/who-we-are">Who we are</a>
+            </li>
+            <li {% if page.url == "/what-we-do.html" %}class="active"{% endif %}>
+              <a href="/what-we-do">What we do</a>
+            </li>
+            <li {% if page.dir == "/blog/" or page.collection == "posts" %}class="active"{% endif %}>
+              <a href="/blog">Blog</a>
+            </li>
+            <li {% if page.url == "/contact.html" %}class="active"{% endif %}>
+              <a href="/contact">Get in touch</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__toggle nav__toggle" id="js-toggle">
+          Menu
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="33" viewBox="0 0 30 33">
+            <g transform="translate(-308 -37.5)">
+              <line x2="30" transform="translate(308 39)"/>
+              <line x2="30" transform="translate(308 54)"/>
+              <line x2="30" transform="translate(308 69)"/>
+            </g>
+          </svg>
+        </button>
+        <div class="header__strip--1 strip strip--circles" role="presentation"></div>
+        <div class="header__strip--2 strip strip--lines" role="presentation"></div>
+      </div>
+    </header>
+
+    <main>
+      <article class="page page--{{ page.layout }}">
+        <header>
+          <h1 class="page__title">{{ page.title }}</h1>
+        </header>
+        <div class="page__content">
+          {{ content }}
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__strip strip strip--circles" role="presentation"></div>
+      <div class="footer__title">
+        <div class="footer__logo" role="presentation">
+        </div>
+      </div>
+      <div class="footer__icon footer__icon--email">
+        <a href="mailto:{{ site.contact_email }}">
+        </a>
+      </div>
+      <div class="footer__icon footer__icon--twitter">
+        <a href="https://twitter.com/{{ site.contact_twitter }}">
+        </a>
+      </div>
+      <div class="footer__impressum">
+        <p>
+          Copyright &copy; 2020 {{ site.site_name }}<br class="if-mobile">
+          <a href="/privacy" class="link">Privacy policy</a>
+        </p>
+      </div>
+    </footer>
+
+  </div>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

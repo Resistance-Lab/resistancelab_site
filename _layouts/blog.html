@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+{% assign author = site.data.authors[page.author] %}
+<div class="blog">
+  <div class="blog__content">
+    <header>
+      <h1 class="blog__title">{{ page.title }}</h1>
+      {% if page.subtitle %}
+        <p class="blog__subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+    </header>
+
+    <div class="blog__body">
+      {{ content }}
+    </div>
+  </div>
+
+  <aside class="blog__aside">
+    <time class="blog__meta" datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time>
+    <div class="blog__meta" rel="author">By {{ author.name }}</div>
+    <div class="blog__meta blog__meta--avatar">
+      <picture>
+        <img src="/assets/images/authors/{{ author.avatar }}"
+           alt="A photo of {{ page.author }}">
+      </picture>
+    </div>
+  </aside>
+</div>
+
+<div class="paginator">
+  <nav aria-label="Blog navigation">
+    <ul>
+      <li><a href="/blog" class="btn">Go back</a></li>
+      {% if page.previous %}
+        <li><a href="{{ page.previous.url }}" class="btn">Previous article</a></li>
+      {% endif %}
+      {% if page.next %}
+        <li><a href="{{ page.next.url }}" class="btn">Next article</a></li>
+      {% endif %}
+    </ul>
+  </nav>
+</div>
