@@ -1,18 +1,20 @@
 paginate: 5
-paginate_path: "/blog/page:num/"
+paginate_path: "/news/page:num/"
 kramdown:
   parse_block_html: true
 plugins:
   - jekyll-paginate
   - jekyll-autoprefixer
 
-site_name: My Website
-site_description: My website's description
+site_name: Resistance Lab
+site_description: Collective against state violence
 
-theme_primary_colour:
-theme_secondary_colour:
+theme_primary_colour: "#C1272D"
+theme_secondary_colour: "#000000"
 
 contact_email: info@resistancelab.network
 contact_twitter: ResLabMcr
 contact_instagram: ResLabMcr
 contact_github: Resistance_Lab
+
+google_analytics:

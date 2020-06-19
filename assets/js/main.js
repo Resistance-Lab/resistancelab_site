@@ -1,13 +1,8 @@
-(function() {
-  var hamburger = {
-    toggle: document.getElementById('js-toggle'),
-    nav: document.getElementById('js-nav'),
-    doToggle: function(e) {
-     this.toggle.classList.toggle('expanded');
-     this.nav.classList.toggle('expanded');
-    }
-  }
+const toggle = document.getElementById('js-toggle')
+const nav = document.getElementById('js-nav')
 
-  hamburger.toggle.addEventListener('click', function(e) { hamburger.doToggle(e); });
-  hamburger.nav.addEventListener('click', function(e) { hamburger.doToggle(e); });
-}());
+// hamburger.toggle.addEventListener('click', function(e) { hamburger.doToggle(e); });
+toggle.addEventListener('click', function(e) {
+  e.preventDefault();
+  nav.classList.toggle('expanded');
+});

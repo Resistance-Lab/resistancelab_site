@@ -1,17 +1,15 @@
-$serif: serif
-$sans: sans-serif
-
-=sans
-  font-family: $sans
-  font-weight: 300
+$headings: Oswald, sans-serif
+$body: Roboto, sans-serif
+$articles: Roboto Slab, serif
+$base-font-size: 18
 
 html
-  font-size: 18px
+  font-size: $base-font-size + px
 
 body
-  font-family: $serif
-  background-color: $secondary
-  color: $primary
+  font-family: $body
+  background-color: $tertiary
+  color: $copy
   font-weight: 400
   line-height: 1.444444
   +for-tablet-portrait-up
@@ -19,7 +17,8 @@ body
     line-height: 1.454545
 
 h1, h2, h3, h4, h5, h6
-  +sans
+  font-family: $headings
+  font-weight: 450
 
 h1
   font-size: 1.55556rem
@@ -32,7 +31,7 @@ h1
 h2, .h2
   font-size: 1.66667rem
   line-height: 1.2
-  font-family: $serif
+  font-family: $body
   margin-top: 0.25em
   +for-tablet-portrait-up
     font-size: 1.944444rem

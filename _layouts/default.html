@@ -3,106 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@450&family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="{{ site.url }}/site.webmanifest">
-    <link rel="mask-icon" href="{{ site.url }}/safari-pinned-tab.svg" color="{{ site.theme_primary_colour }}">
-    <meta name="msapplication-TileColor" content="{{ site.theme_primary_colour }}">
-    <meta name="theme-color" content="{{ site.theme_primary_colour }}">
-    <!-- Open Graph -->
-    <meta property="og:image:width" content="279">
-    <meta property="og:image:height" content="279">
-    <meta property="og:site_name" content="{{ site.site_name }}">
 
-  {%- if page.title %}
-    <title>{{ page.title }} | {{ site.site_name }}</title>
-    <meta property="og:title" content="{{ page.title }}">
-    <meta name="twitter:title" content="{{ page.title }}">
-  {% else %}
-    <title>{{ site.site_name }}</title>
-    <meta property="og:title" content="{{ site.site_name }}">
-    <meta name="twitter:title" content="{{ site.site_name }}">
-  {% endif %}
+    {% include meta.html %}
 
-  {%- if page.description %}
-    <meta name="twitter:description" content="{{ page.description }}">
-    <meta property="og:description" content="{{ page.description }}">
-  {% else %}
-    <meta name="twitter:description" content="{{ site.site_description }}">
-    <meta property="og:description" content="{{ site.site_description }}">
-  {% endif %}
-
-  {%- if page.social-image-square %}
-    <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.social-image-square }}">
-  {% else %}
-    <meta property="og:image" content="{{ site.url }}/og-image.jpg">
-  {% endif %}
-
-  {%- if page.social-image-wide %}
-    <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.social-image-wide }}">
-  {% else %}
-    <meta name="twitter:image" content="{{ site.url }}/og-image-2_1.png">
-  {% endif %}
-
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@{{ site.contact_twitter }}">
-    <meta name="twitter:creator" content="@{{ site.contact_twitter }}">
-
-  {%- if jekyll.environment == "production" %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138415980-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-138415980-2');
-    </script>
-  {%- endif %}
+    {% include analytics.html %}
 </head>
 <body>
   <div class="page__wrapper">
     <header>
-      <div class="header">
+      <div class="header" id="js-nav">
         <h2 class="header__title">
           <a href="/">
             <div class="header__h2">{{ site.site_name }}</div>
-            <div class="header__logo" role="presentation"></div>
+            <div class="header__logo" role="presentation">
+              {% include logo.html %}
+            </div>
           </a>
+          <button class="header__toggle nav__toggle" id="js-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23">
+              <g id="Group_76" data-name="Group 76" transform="translate(-364 -126)">
+                <rect id="Rectangle_9" data-name="Rectangle 9" width="25" height="5" transform="translate(364 126)" fill="#fff"/>
+                <rect id="Rectangle_11" data-name="Rectangle 11" width="25" height="6" transform="translate(364 134)" fill="#fff"/>
+                <rect id="Rectangle_12" data-name="Rectangle 12" width="25" height="6" transform="translate(364 143)" fill="#fff"/>
+              </g>
+            </svg>
+          </button>
         </h2>
-        <nav class="header__nav nav" id="js-nav">
-          <ul>
-            <li {% if page.url == "/who-we-are.html" %}class="active"{% endif %}>
-              <a href="/who-we-are">Who we are</a>
-            </li>
-            <li {% if page.url == "/what-we-do.html" %}class="active"{% endif %}>
-              <a href="/what-we-do">What we do</a>
-            </li>
-            <li {% if page.dir == "/blog/" or page.collection == "posts" %}class="active"{% endif %}>
-              <a href="/blog">Blog</a>
-            </li>
-            <li {% if page.url == "/contact.html" %}class="active"{% endif %}>
-              <a href="/contact">Get in touch</a>
-            </li>
-          </ul>
+        <nav class="header__nav nav">
+          {% include navigation.html %}
         </nav>
-        <button class="header__toggle nav__toggle" id="js-toggle">
-          Menu
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="33" viewBox="0 0 30 33">
-            <g transform="translate(-308 -37.5)">
-              <line x2="30" transform="translate(308 39)"/>
-              <line x2="30" transform="translate(308 54)"/>
-              <line x2="30" transform="translate(308 69)"/>
-            </g>
-          </svg>
-        </button>
-        <div class="header__strip--1 strip strip--circles" role="presentation"></div>
-        <div class="header__strip--2 strip strip--lines" role="presentation"></div>
       </div>
     </header>
 
