@@ -1,0 +1,45 @@
+.box-grid
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-gap: 32px
+
+.box
+  background-color: $tertiary
+  padding: 0 1rem 1rem
+  h2
+    text-transform: uppercase
+    font-family: $headings
+    font-size: 1.94rem
+    transform: rotate(-2deg)
+    display: inline-block
+    padding: 1rem
+    margin-top: -1rem
+    margin-left: -2rem
+    margin-bottom: 0
+    border-width: 1px
+    border-style: solid
+
+  &--white
+    border: 1px solid $primary
+    h2
+      background-color: $primary
+      color: $tertiary
+      border-color: $secondary
+  &--red
+    background-color: $primary
+    color: $tertiary
+    h2
+      background-color: $secondary
+      color: $tertiary
+      border-color: $secondary
+    a
+      color: $tertiary
+  &--black
+    background-color: $secondary
+    color: $tertiary
+    h2
+      background-color: $tertiary
+      color: $secondary
+      border-color: $secondary
+    a
+      color: $tertiary

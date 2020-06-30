@@ -15,3 +15,37 @@
   a
     text-decoration: none
     color: $tertiary
+    // letter-spacing: 0.05rem
+  +for-tablet-portrait-up
+    height: auto
+    width: calc(100% - 330px)
+    ul
+      padding-top: 0
+      margin-top: 0
+      margin-left: 0.5rem
+      line-height: 1
+      position: relative
+      bottom: 1rem
+    li
+      text-align: left
+      padding: 0
+      line-height: 1
+    a
+      color: $primary
+      font-size: 1.2rem
+      &::after
+        content: " | "
+        padding: 0 0.25rem
+    li:last-of-type a::after
+      content: ""
+      padding: 0
+  +for-tablet-landscape-up
+    ul
+      margin-left: 1.5rem
+      bottom: 2rem
+    a
+      font-size: 1.3rem
+  +for-desktop-up
+    a
+      font-size: 1.5rem
+      letter-spacing: 0.05rem

@@ -41,3 +41,32 @@
   background-color: $secondary-trans
   .header__nav
     display: block
+
+.header__wrapper
+  +for-tablet-portrait-up
+    background: linear-gradient(to bottom, $secondary 50%, $tertiary 50%)
+  +for-tablet-landscape-up
+    background: linear-gradient(to bottom, $secondary 60%, $tertiary 60%)
+
+.header
+  +for-tablet-portrait-up
+    text-align: left
+    padding-left: $margin-tablet-portrait
+    &__toggle
+      display: none
+    &__title
+      display: inline-block
+    &__nav
+      display: inline-block
+    &__logo
+      width: 218px
+      padding: 0
+    &__h2
+      bottom: 50%
+  +for-tablet-landscape-up
+    padding-left: $margin-tablet-landscape
+  +for-desktop-up
+    max-width: 1200px
+    margin: 0 auto
+    &__logo
+      width: 300px

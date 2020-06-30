@@ -1,17 +1,18 @@
-$margin-tablet-portrait: 8.6rem
-$margin-tablet-landscape: 12.11111rem
-$margin-desktop: 13.33333rem
+$margin-phone: 1.5rem
+$margin-tablet-portrait: 3rem
+$margin-tablet-landscape: 5rem
+$margin-desktop: 8rem
 
 =for-phone-only
-  @media (max-width: 639px)
+  @media (max-width: 599px)
     @content
 
 =for-tablet-portrait-up
-  @media (min-width: 640px)
+  @media (min-width: 600px)
     @content
 
 =for-tablet-landscape-up
-  @media (min-width: 1024px)
+  @media (min-width: 900px)
     @content
 
 =for-desktop-up
