@@ -113,6 +113,8 @@ th { text-align: left; }
   .header__logo { width: 300px; } }
 
 .page__title { text-transform: uppercase; color: #000000; text-align: center; }
+.page__title--fancy br { display: none; }
+@media (min-width: 1200px) { .page__title--fancy br { display: block; } }
 .page__title--fancy span { color: #C1272D; }
 
 .page__content { background: url("/assets/images/bg.svg"); padding-top: 32px; padding-bottom: 32px; }

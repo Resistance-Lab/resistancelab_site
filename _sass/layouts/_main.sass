@@ -3,6 +3,10 @@
   color: $secondary
   text-align: center
   &--fancy
+    br
+      display: none
+      +for-desktop-up
+        display: block
     span
       color: $primary
 
