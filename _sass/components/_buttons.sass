@@ -1,16 +1,11 @@
 a.btn, .btn a
-  display: inline-block
+  display: block
+  font-weight: bold
   text-decoration: none
-  border: 2px solid $primary
-  padding: 0.66666rem 1rem
-  color: $primary
   -webkit-transition: 0.2s
   -moz-transition: 0.2s
   transition: 0.2s
+  &::after
+    content: " >"
   &:hover
-    color: $secondary
-
-a.link, .teaser__excerpt a
-  display: inline-block
-  &:hover
-    color: $secondary !important
+    text-decoration: underline

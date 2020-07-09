@@ -12,25 +12,28 @@
     {% include analytics.html %}
 </head>
 <body>
-  <header class="header__wrapper">
-    <div class="header" id="js-nav">
-      <h2 class="header__title">
-        <a href="/">
-          <div class="header__h2">{{ site.site_name }}</div>
-          <div class="header__logo" role="presentation">
-            {% include logo.html %}
-          </div>
-        </a>
-        <button class="header__toggle nav__toggle" id="js-toggle">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23">
-            <g id="Group_76" data-name="Group 76" transform="translate(-364 -126)">
-              <rect id="Rectangle_9" data-name="Rectangle 9" width="25" height="5" transform="translate(364 126)" fill="#fff"/>
-              <rect id="Rectangle_11" data-name="Rectangle 11" width="25" height="6" transform="translate(364 134)" fill="#fff"/>
-              <rect id="Rectangle_12" data-name="Rectangle 12" width="25" height="6" transform="translate(364 143)" fill="#fff"/>
-            </g>
-          </svg>
-        </button>
-      </h2>
+  <header class="header">
+    <div class="header__inner" id="js-nav">
+<h2 class="header__title">
+      <div class="pad">
+
+          <a href="/">
+            <div class="header__h2">{{ site.site_name }}</div>
+            <div class="header__logo" role="presentation">
+              {% include logo.html %}
+            </div>
+          </a>
+          <button class="header__toggle nav__toggle" id="js-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23">
+              <g id="Group_76" data-name="Group 76" transform="translate(-364 -126)">
+                <rect id="Rectangle_9" data-name="Rectangle 9" width="25" height="5" transform="translate(364 126)" fill="#fff"/>
+                <rect id="Rectangle_11" data-name="Rectangle 11" width="25" height="6" transform="translate(364 134)" fill="#fff"/>
+                <rect id="Rectangle_12" data-name="Rectangle 12" width="25" height="6" transform="translate(364 143)" fill="#fff"/>
+              </g>
+            </svg>
+          </button>
+        </h2>
+      </div>
       <nav class="header__nav nav">
         {% include navigation.html %}
       </nav>
@@ -46,31 +49,55 @@
           <h1 class="page__title pad">{{ page.title }}</h1>
         {% endif %}
       </header>
-      <div class="page__content pad">
-        {{ content }}
+      <div class="page__content">
+        <div class="pad">
+          {{ content }}
+        </div>
       </div>
     </article>
   </main>
 
   <footer class="footer">
-    <div class="footer__strip strip strip--circles" role="presentation"></div>
-    <div class="footer__title">
-      <div class="footer__logo" role="presentation">
-      </div>
-    </div>
-    <div class="footer__icon footer__icon--email">
-      <a href="mailto:{{ site.contact_email }}">
-      </a>
-    </div>
-    <div class="footer__icon footer__icon--twitter">
-      <a href="https://twitter.com/{{ site.contact_twitter }}">
-      </a>
-    </div>
-    <div class="footer__impressum">
-      <p>
-        Copyright &copy; 2020 {{ site.site_name }}<br class="if-mobile">
-        <a href="/privacy" class="link">Privacy policy</a>
-      </p>
+    <div class="pad">
+      <h2>Our Members</h2>
+      <ul class="members">
+        {% for member in site.data.members %}
+          <li class="member">
+            <a href="{{ member.url }}" class="member__link">
+              <div class="member__name">{{ member.name }}</div>
+              <img src="https://placedog.net/500/500?random&q={{forloop.index}}" alt="{{ member.name }}'s logo" class="member__image">
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <h2>Social Media</h2>
+      <ul class="social">
+        <li>
+          <a href="https://twitter.com/ResLabMcr">
+            {% include logo_twitter.html %}
+            ResLabMcr
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com/ResLabMcr">
+            {% include logo_insta.html %}
+            ResLabMcr
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Resistance-Lab">
+            {% include logo_github.html %}
+            Resistance-Lab
+          </a>
+        </li>
+        <li>
+          <a href="https://tinyletter.com/ResistanceLab">
+            {% include logo_tinyletter.html %}
+            ResistanceLab
+          </a>
+        </li>
+      </ul>
     </div>
   </footer>
 

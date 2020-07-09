@@ -1,15 +1,19 @@
 .box
   background-color: $tertiary
-  padding: 0 1rem 1rem
+  padding: 0 1rem 2rem
   h2
     transform: rotate(-2deg)
     display: inline-block
-    padding: 1rem
-    margin-top: -1rem
-    margin-left: -2rem
-    margin-bottom: 0
+    padding: 1.2rem 1.5rem
+    margin: -1rem 15% 0 0
     border-width: 1px
     border-style: solid
+  h2 + *
+    padding-top: 1rem
+
+  +for-tablet-landscape-up
+    margin-left: -2rem
+    margin-right: 0
 
   &--white
     border: 1px solid $primary

@@ -1,6 +1,13 @@
 .pad
   padding: 0 $margin-phone
   +for-tablet-portrait-up
-    padding: 0 $margin-tablet-portrait
+    width: 80%
+    padding: 0
+    margin: 0 auto
   +for-tablet-landscape-up
-    padding: 0 $margin-tablet-landscape
+    width: 75%
+  +for-desktop-up
+    width: 80%
+    max-width: 1088px
+  +for-big-desktop-up
+    max-width: 1200px
