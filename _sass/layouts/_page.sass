@@ -1,17 +1,22 @@
-.page__title
-  text-transform: uppercase
-  color: $secondary
-  text-align: center
-  margin: 2rem auto 3rem
-  &--fancy
-    br
-      display: none
-      +for-desktop-up
-        display: block
-    span
-      color: $primary
+.page
+  &__title
+    text-transform: uppercase
+    color: $secondary
+    text-align: center
+    margin: 2rem auto 2.5rem
+    &--fancy
+      br
+        display: none
+        +for-desktop-up
+          display: block
+      span
+        color: $primary
+    +for-tablet-portrait-up
+      margin: 1.5rem auto 2rem
+    +for-desktop-up
+      margin: 2rem auto 2.5rem
 
-.page__content
-  background: url('/assets/images/bg.svg')
-  padding-top: $background-grid-size * 3
-  padding-bottom: $background-grid-size * 5
+  &__content
+    background: url('/assets/images/bg.svg')
+    padding-top: $background-grid-size * 3
+    padding-bottom: $background-grid-size * 5

@@ -1,9 +1,7 @@
 .nav
   font-family: $headings
-  height: 100vh
   ul
     margin: 0
-    padding: 1.5rem 0 0.5rem
   li
     list-style-type: none
     padding: 0.9rem 0
@@ -17,15 +15,8 @@
     color: $tertiary
     // letter-spacing: 0.05rem
   +for-tablet-portrait-up
-    height: auto
-    width: calc(100% - 330px)
     ul
-      padding-top: 0
-      margin-top: 0
-      margin-left: 0.5rem
       line-height: 1
-      position: relative
-      bottom: 1rem
     li
       text-align: left
       padding: 0
@@ -40,9 +31,6 @@
       content: ""
       padding: 0
   +for-tablet-landscape-up
-    ul
-      margin-left: 1.5rem
-      bottom: 2rem
     a
       font-size: 1.3rem
   +for-desktop-up

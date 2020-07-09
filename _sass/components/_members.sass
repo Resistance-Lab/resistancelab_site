@@ -1,18 +1,17 @@
 .members
-  margin: 2rem 0 3rem
+  margin: 2rem 0 2rem
   padding: 0
   list-style-type: none
   display: grid
-  grid-template-columns: repeat(2, 1fr)
+  grid-template-columns: repeat(3, 1fr)
   grid-gap: 1.5rem
   line-height: 0
   +for-tablet-portrait-up
-    grid-template-columns: repeat(3, 1fr)
-    grid-gap: 3rem
-  +for-tablet-landscape-up
     grid-template-columns: repeat(4, 1fr)
+  +for-tablet-landscape-up
+    grid-template-columns: repeat(3, 1fr)
   +for-desktop-up
-    grid-template-columns: repeat(5, 1fr)
+    grid-template-columns: repeat(4, 1fr)
 
 .member
   &__name

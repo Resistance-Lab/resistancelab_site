@@ -13,10 +13,9 @@
 </head>
 <body>
   <header class="header">
-    <div class="header__inner" id="js-nav">
-<h2 class="header__title">
-      <div class="pad">
-
+    <div class="pad">
+      <div class="header__inner" id="js-nav">
+        <h2 class="header__title">
           <a href="/">
             <div class="header__h2">{{ site.site_name }}</div>
             <div class="header__logo" role="presentation">
@@ -25,18 +24,18 @@
           </a>
           <button class="header__toggle nav__toggle" id="js-toggle">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23">
-              <g id="Group_76" data-name="Group 76" transform="translate(-364 -126)">
-                <rect id="Rectangle_9" data-name="Rectangle 9" width="25" height="5" transform="translate(364 126)" fill="#fff"/>
-                <rect id="Rectangle_11" data-name="Rectangle 11" width="25" height="6" transform="translate(364 134)" fill="#fff"/>
-                <rect id="Rectangle_12" data-name="Rectangle 12" width="25" height="6" transform="translate(364 143)" fill="#fff"/>
+              <g transform="translate(-364 -126)">
+                <rect width="25" height="5" transform="translate(364 126)" />
+                <rect width="25" height="6" transform="translate(364 134)" />
+                <rect width="25" height="6" transform="translate(364 143)" />
               </g>
             </svg>
           </button>
         </h2>
+        <nav class="header__nav nav">
+          {% include navigation.html %}
+        </nav>
       </div>
-      <nav class="header__nav nav">
-        {% include navigation.html %}
-      </nav>
     </div>
   </header>
 
@@ -59,45 +58,51 @@
 
   <footer class="footer">
     <div class="pad">
-      <h2>Our Members</h2>
-      <ul class="members">
-        {% for member in site.data.members %}
-          <li class="member">
-            <a href="{{ member.url }}" class="member__link">
-              <div class="member__name">{{ member.name }}</div>
-              <img src="https://placedog.net/500/500?random&q={{forloop.index}}" alt="{{ member.name }}'s logo" class="member__image">
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-
-      <h2>Social Media</h2>
-      <ul class="social">
-        <li>
-          <a href="https://twitter.com/ResLabMcr">
-            {% include logo_twitter.html %}
-            ResLabMcr
-          </a>
-        </li>
-        <li>
-          <a href="https://instagram.com/ResLabMcr">
-            {% include logo_insta.html %}
-            ResLabMcr
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/Resistance-Lab">
-            {% include logo_github.html %}
-            Resistance-Lab
-          </a>
-        </li>
-        <li>
-          <a href="https://tinyletter.com/ResistanceLab">
-            {% include logo_tinyletter.html %}
-            ResistanceLab
-          </a>
-        </li>
-      </ul>
+      <div class="columns">
+        <div class="column">
+          <h2>Our Members</h2>
+          <ul class="members">
+            {% for member in site.data.members %}
+              <li class="member">
+                <a href="{{ member.url }}" class="member__link">
+                  <div class="member__name">{{ member.name }}</div>
+                  <img src="https://placedog.net/500/500?random&q={{forloop.index}}" alt="{{ member.name }}'s logo" class="member__image">
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="column">
+          <h2>Connect With Us</h2>
+          <ul class="social">
+            <li>
+              <a href="https://twitter.com/ResLabMcr">
+                {% include logo_twitter.html %}
+                ResLabMcr
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/ResLabMcr">
+                {% include logo_insta.html %}
+                ResLabMcr
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Resistance-Lab">
+                {% include logo_github.html %}
+                Resistance-Lab
+              </a>
+            </li>
+            <li>
+              <a href="https://tinyletter.com/ResistanceLab">
+                {% include logo_tinyletter.html %}
+                ResistanceLab
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copyright">&copy; Resistance Lab 2020. All rights reserved.</p>
     </div>
   </footer>
 
