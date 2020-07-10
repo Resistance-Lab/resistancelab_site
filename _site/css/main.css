@@ -153,7 +153,16 @@ th { text-align: left; }
 @media (min-width: 900px) { .nav a { font-size: 1.3rem; } }
 @media (min-width: 1200px) { .nav a { font-size: 1.5rem; letter-spacing: 0.05rem; } }
 
-.article { border: 1px solid #000000; background-color: #FFFFFF; padding: 1.5rem 3rem; font-family: Roboto Slab, serif; }
+.article { border: 1px solid #000000; background-color: #FFFFFF; padding: 0rem 1rem; font-family: Roboto Slab, serif; }
+.article h2 { padding-top: 1rem; }
+.article ol, .article ul { margin-left: 0rem; padding-left: 1rem; }
+.article li { padding-bottom: 0.25rem; }
+.article li ol { padding-top: 0.25rem; }
+@media (min-width: 600px) { .article { padding: 0rem 2rem; } }
+@media (min-width: 900px) { .article { padding: 1rem 3.5rem; }
+  .article ol, .article ul { padding-left: 2rem; } }
+@media (min-width: 1200px) { .article { padding: 1rem 5rem; } }
+@media (min-width: 1600px) { .article { padding: 1rem 7rem; } }
 
 .grid { display: grid; grid-gap: 3rem 3rem; grid-auto-rows: 0.25rem; grid-template-columns: 1fr; }
 @media (min-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } }

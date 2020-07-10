@@ -1,5 +1,24 @@
 .article
   border: 1px solid $secondary
   background-color: $tertiary
-  padding: 1.5rem 3rem
+  padding: 0rem 1rem
   font-family: $articles
+  h2
+    padding-top: 1rem
+  ol, ul
+    margin-left: 0rem
+    padding-left: 1rem
+  li
+    padding-bottom: 0.25rem
+  li ol
+    padding-top: 0.25rem
+  +for-tablet-portrait-up
+    padding: 0rem 2rem
+  +for-tablet-landscape-up
+    padding: 1rem 3.5rem
+    ol, ul
+      padding-left: 2rem
+  +for-desktop-up
+    padding: 1rem 5rem
+  +for-big-desktop-up
+    padding: 1rem 7rem
