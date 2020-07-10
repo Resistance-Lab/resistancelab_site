@@ -4,8 +4,8 @@
   path: our-work
 - title: News
   path: news
-- title: Resources
-  path: resources
+# - title: Resources
+#   path: resources
 - title: About Us
   path: about-us
 - title: Contact

@@ -1,26 +1,61 @@
 ---
-layout: article
-title: We are a multidisciplinary team of activists, researchers, campaigners and citizens aiming to dismantle the causes of state violence.
+layout: grid
+title: We are a multidisciplinary team of activists, campaigners, citizens and researchers aiming to dismantle the causes of state violence.
+title_fancy: We are a <span>multidisciplinary team</span> of<br> <span>activists, campaigners, citizens and researchers</span><br> aiming to dismantle the <span>causes of state violence.</span>
 ---
 
-We are committed to participatory democratic approaches that bring tech and data experts into collaborative partnership with anti-racist activists, in order to find new ways to resist state violence and create more just and equitable communities. 
+<!-- Introduction -->
 
-Through workshops and meetings, we have worked together to analyse and understand stop and search data in our community, partnered with local archives to uncover alternative narratives of people who have died following police custody, and helped families affected with the emotional and legal support necessary to investigate and challenge decisions. 
+{% include box.html colour="white" %}
 
-[Constitution](/about-us/constitution)
+We are an anti-racist group who seek to understand, expose, and educate others about how state violence affects marginalised communities. Resistance Lab members meet semi-regularly to organise around the local (Greater Manchester) dimensions of the global challenge presented by (racist) state violence. Central to our work is the development of technological and/or creative outputs to raise public awareness about different forms of state violence.
+
+We are committed to participatory democratic approaches that bring tech and data experts into collaborative partnership with anti-racist activists, in order to find new ways to resist state violence and create more just and equitable communities.
+
+Through workshops and meetings, we have worked together to analyse and understand stop and search data in our community, partnered with local archives to uncover alternative narratives of people who have died following police custody, and helped families affected with the emotional and legal support necessary to investigate and challenge decisions.
+
+{% include endbox.html %}
+
+
+<!-- Member organisations -->
+
+{% include box.html colour="red" %}
+
+## Member organisations
 
 Affiliated organisations include Geeks for Social Change, Kids of Colour, Northern Police Monitoring Project (NPMP), Race, Roots & Resistance, and Sites of Resistance.
 
-We are an independant group and operate according to non-hierarchical principles wherever possible.
+If you're interested in joining our group or doing a collaboration, please get in touch.
 
-We are an anti-racist group and as such, our work seeks to understand, expose, and educate others about how state violence is targeted at Black and Brown communities in particular. Our primary focus is to support the lives of those affected by state violence, therefore active police officers, prison guards and so on are not welcome within the group. 
+[Contact us](/contact){:.btn}
 
-Resistance Lab members meet semi-regularly to organise around the local (Greater Manchester) dimensions of the global challenge presented by (racist) state violence. Central to our work is the development of technological and/or creative outputs to raise public awareness about different forms of state violence. 
+{% include endbox.html %}
 
-To do this, we have several ‘working groups’ – or ongoing projects – that members can volunteer to become involved in. Members are encouraged to also put forward ideas for new working groups. At present (September 2019), members can participate in two working groups: one exploring histories of state violence in Greater Manchester; the other exploring harm caused by ‘stop and search’ in Greater Manchester.
+<!-- Join us -->
 
-[Working groups](/working-groups)
+{% include box.html colour="white" %}
 
-Resistance Lab began in 2018 and currently has [X number of] members (as of September
-2019). Whilst members join Resistance Lab in an individual capacity, the following groups
-are represented: 
+## Join us
+
+We welcome new members interested in joining our group. Police officers, people who work in the prisons or probation service, and serving military officers are not welcome. We do therefore have a short vetting process to keep the group a safe place for those who have been the victims of state violence.
+
+[Apply to join the group](/about-us/join){:.btn}
+
+{% include endbox.html %}
+
+
+<!-- Membership docs -->
+
+{% include box.html colour="black" %}
+
+## The small print
+
+Our **constitution** governs our group and acts as a shared understanding between members about the purpose of the group. It changes regularly as we better understand our processes and objectives.
+
+[Read our Constitution](/about-us/constitution){:.btn}
+
+Our **code of conduct** is an agreement all members take when joining the group. It helps to ensure we remain a safe space.
+
+[Read our Code of Conduct](/about-us/code-of-conduct){:.btn}
+
+{% include endbox.html %}
