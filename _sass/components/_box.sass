@@ -17,13 +17,13 @@
     h2
       margin-left: -2rem
 
-  &--white
+  &:nth-of-type(3n + 1)
     border: 1px solid $primary
     h2
       background-color: $primary
       color: $tertiary
       border-color: $secondary
-  &--red
+  &:nth-of-type(3n + 2)
     background-color: $primary
     color: $tertiary
     h2
@@ -32,7 +32,7 @@
       border-color: $secondary
     a
       color: $tertiary
-  &--black
+  &:nth-of-type(3n + 3)
     background-color: $secondary
     color: $tertiary
     h2
