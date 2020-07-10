@@ -8,7 +8,10 @@ title_fancy: We are a <span>multidisciplinary team</span> of<br> <span>activists
 
 {% include box.html colour="white" %}
 
-We are an anti-racist group who seek to understand, expose, and educate others about how state violence affects marginalised communities. Resistance Lab members meet semi-regularly to organise around the local (Greater Manchester) dimensions of the global challenge presented by (racist) state violence. Central to our work is the development of technological and/or creative outputs to raise public awareness about different forms of state violence.
+We are an anti-racist group who seek to understand, expose, and educate others about how state violence affects marginalised communities. Resistance Lab members meet semi-regularly to organise around the local (Greater Manchester) dimensions of the global challenge presented by (racist) state violence.
+{:.bigger}
+
+Central to our work is the development of technological and/or creative outputs to raise public awareness about different forms of state violence.
 
 We are committed to participatory democratic approaches that bring tech and data experts into collaborative partnership with anti-racist activists, in order to find new ways to resist state violence and create more just and equitable communities.
 

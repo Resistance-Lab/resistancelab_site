@@ -1,3 +1,5 @@
+$margin-desktop: 18%
+
 .article
   border: 1px solid $secondary
   background-color: $tertiary
@@ -22,3 +24,33 @@
     padding: 1rem 5rem
   +for-big-desktop-up
     padding: 1rem 7rem
+
+  img
+    max-width: 100%
+
+  .image
+    border: 1px solid $primary
+    margin-top: 1rem
+    margin-bottom: 1rem
+    &--full
+      margin-left: -$margin-desktop
+      margin-right: -$margin-desktop
+      max-width: 100% + ($margin-desktop * 2)
+    &--left
+      max-width: 45% + $margin-desktop
+      margin-left: -$margin-desktop
+      margin-right: 2rem
+      float: left
+    &--right
+      max-width: 45% + $margin-desktop
+      margin-left: 2rem
+      margin-right: -$margin-desktop
+      float: right
+
+  .pullquote
+    font-size: 2.5rem
+    font-family: $headings
+    text-transform: uppercase
+    text-align: center
+    line-height: 1.22222
+    margin: 2rem 0

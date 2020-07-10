@@ -15,3 +15,19 @@ This page catalogues the outputs of this ongoing process in the form of longform
 {:.bigger}
 
 {% include endbox.html %}
+
+{% for work in site.our-work %}
+
+{% include box.html %}
+
+## {{ work.title }}
+
+**Published {{ work.published | date: "%-d %B %Y" }}**
+
+{{ work.teaser }}
+
+[Read the report]({{ work.url }}){:.btn}
+
+{% include endbox.html %}
+
+{% endfor %}

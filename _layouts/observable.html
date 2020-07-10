@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="article" id="js-article">
+  {{ content }}
+</div>
+
+<script type="module">
+
+import define from "./index.js";
+import {Runtime, Library, Inspector} from "./runtime.js";
+
+const runtime = new Runtime();
+const article = document.getElementById('js-article');
+const main = runtime.module(define, Inspector.into(article));
+
+</script>

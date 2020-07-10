@@ -1,10 +1,15 @@
-paginate: 5
-paginate_path: "/news/page:num/"
+# paginate: 5
+# paginate_path: "/our-work/page:num/"
 kramdown:
   parse_block_html: true
 plugins:
   - jekyll-paginate
   - jekyll-autoprefixer
+collections:
+  our-work:
+    output: true
+  news:
+    output: true
 
 site_name: Resistance Lab
 site_description: Collective against state violence
