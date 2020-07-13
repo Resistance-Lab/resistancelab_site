@@ -219,6 +219,9 @@ th { text-align: left; }
 @media (min-width: 1200px) { .article .image--full { margin-left: -8rem; margin-right: -8rem; max-width: calc(100% + (8rem * 2)); }
   .article .image--left { max-width: calc(50% + 8rem); margin-left: -8rem; margin-right: 2rem; float: left; }
   .article .image--right { max-width: calc(50% + 8rem); margin-left: 2rem; margin-right: -8rem; float: right; } }
+@media (min-width: 1600px) { .article .image--full { margin-left: -10.5rem; margin-right: -10.5rem; max-width: calc(100% + 21rem); }
+  .article .image--left { max-width: calc(50% + 10.5rem); margin-left: -10.5rem; margin-right: 3rem; float: left; }
+  .article .image--right { max-width: calc(50% + 10.5rem); margin-left: 3rem; margin-right: -10.5rem; float: right; } }
 .article .pullquote { font-size: 2rem; font-family: Oswald, sans-serif; text-transform: uppercase; text-align: center; line-height: 1.22222; margin: 2rem 0; }
 .article .pullquote::before { content: "“"; }
 .article .pullquote::after { content: "”"; }

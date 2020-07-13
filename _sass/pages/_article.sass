@@ -80,6 +80,21 @@ $page-margin: 10%
         margin-left: 2rem
         margin-right: -$margin-desktop
         float: right
+    +for-big-desktop-up
+      &--full
+        margin-left: -$article-padding-big-desktop * 1.5
+        margin-right: -$article-padding-big-desktop * 1.5
+        max-width: calc(100% + #{$article-padding-big-desktop * 3})
+      &--left
+        max-width: calc(50% + #{$article-padding-big-desktop * 1.5})
+        margin-left: -$article-padding-big-desktop * 1.5
+        margin-right: 3rem
+        float: left
+      &--right
+        max-width: calc(50% + #{$article-padding-big-desktop * 1.5})
+        margin-left: 3rem
+        margin-right: -$article-padding-big-desktop * 1.5
+        float: right
 
   .pullquote
     font-size: 2rem
