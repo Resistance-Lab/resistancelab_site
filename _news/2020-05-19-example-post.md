@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: article
 title: Blog post title
 description: Blog post description
 author: kim

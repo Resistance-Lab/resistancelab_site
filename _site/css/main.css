@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .if-mobile { display: none; }
 @media (max-width: 599px) { .if-mobile { display: block; } }
 
@@ -42,14 +43,14 @@ ol ol { list-style-type: lower-roman; }
 .box h2 { -webkit-transform: rotate(-2deg); transform: rotate(-2deg); display: inline-block; padding: 1.2rem 1.5rem; margin: -1rem 15% 0 0; border-width: 1px; border-style: solid; }
 .box h2 + * { padding-top: 1rem; }
 @media (min-width: 600px) { .box h2 { margin-left: -2rem; } }
-.box:nth-of-type(3n + 1) { border: 1px solid #C1272D; }
-.box:nth-of-type(3n + 1) h2 { background-color: #C1272D; color: #FFFFFF; border-color: #000000; }
-.box:nth-of-type(3n + 2) { background-color: #C1272D; color: #FFFFFF; }
-.box:nth-of-type(3n + 2) h2 { background-color: #000000; color: #FFFFFF; border-color: #000000; }
-.box:nth-of-type(3n + 2) a { color: #FFFFFF; }
-.box:nth-of-type(3n + 3) { background-color: #000000; color: #FFFFFF; }
-.box:nth-of-type(3n + 3) h2 { background-color: #FFFFFF; color: #000000; border-color: #000000; }
-.box:nth-of-type(3n + 3) a { color: #FFFFFF; }
+.box:nth-of-type(4n + 1) { border: 1px solid #C1272D; }
+.box:nth-of-type(4n + 1) h2 { background-color: #C1272D; color: #FFFFFF; border-color: #000000; }
+.box:nth-of-type(4n + 2), .box:nth-of-type(4n + 4) { background-color: #C1272D; color: #FFFFFF; }
+.box:nth-of-type(4n + 2) h2, .box:nth-of-type(4n + 4) h2 { background-color: #000000; color: #FFFFFF; border-color: #000000; }
+.box:nth-of-type(4n + 2) a, .box:nth-of-type(4n + 4) a { color: #FFFFFF; }
+.box:nth-of-type(4n + 3) { background-color: #000000; color: #FFFFFF; }
+.box:nth-of-type(4n + 3) h2 { background-color: #FFFFFF; color: #000000; border-color: #000000; }
+.box:nth-of-type(4n + 3) a { color: #FFFFFF; }
 
 a.btn, .btn a { display: block; font-weight: bold; text-decoration: none; -webkit-transition: 0.2s; transition: 0.2s; }
 a.btn::after, .btn a::after { content: " >"; }
@@ -202,11 +203,20 @@ th { text-align: left; }
 @media (min-width: 1200px) { .article { padding: 1rem 5rem; } }
 @media (min-width: 1600px) { .article { padding: 1rem 7rem; } }
 .article img { max-width: 100%; }
-.article .image { border: 1px solid #C1272D; margin-top: 1rem; margin-bottom: 1rem; }
-.article .image--full { margin-left: -18%; margin-right: -18%; max-width: 136%; }
-.article .image--left { max-width: 63%; margin-left: -18%; margin-right: 2rem; float: left; }
-.article .image--right { max-width: 63%; margin-left: 2rem; margin-right: -18%; float: right; }
-.article .pullquote { font-size: 2.5rem; font-family: Oswald, sans-serif; text-transform: uppercase; text-align: center; line-height: 1.22222; margin: 2rem 0; }
+.article blockquote { margin: 1rem 1rem; }
+.article .image { border-width: 1px 0px; border-style: solid; border-color: #C1272D; margin-top: 1rem; margin-bottom: 1rem; box-shadow: 0 0 15px #575757; }
+.article .image--full, .article .image--left, .article .image--right { margin-left: -2.5rem; margin-right: -2.5rem; max-width: calc(100% + (2.5rem * 2)); }
+@media (min-width: 600px) { .article .image { border-width: 1px; margin-top: 1rem; margin-bottom: 2rem; }
+  .article .image--full { margin-left: calc(-10% - 1.6rem); margin-right: calc(-10% - 1.6rem); max-width: calc(100% + (10% * 2) + (1.6rem * 2)); }
+  .article .image--left { margin-left: calc(-10% - 1.6rem); max-width: calc(100% + (2 * 1.6rem)); margin-right: 2rem; float: left; }
+  .article .image--right { margin-right: calc(-10% - 1.6rem); max-width: calc(100% + (2 * 1.6rem)); margin-left: 2rem; float: right; } }
+@media (min-width: 1200px) { .article .image--full { margin-left: -8rem; margin-right: -8rem; max-width: calc(100% + (8rem * 2)); }
+  .article .image--left { max-width: calc(50% + 8rem); margin-left: -8rem; margin-right: 2rem; float: left; }
+  .article .image--right { max-width: calc(50% + 8rem); margin-left: 2rem; margin-right: -8rem; float: right; } }
+.article .pullquote { font-size: 2rem; font-family: Oswald, sans-serif; text-transform: uppercase; text-align: center; line-height: 1.22222; margin: 2rem 0; }
+.article .pullquote::before { content: "“"; }
+.article .pullquote::after { content: "”"; }
+@media (min-width: 600px) { .article .pullquote { font-size: 2.5rem; } }
 
 .grid { display: grid; grid-gap: 3rem 3rem; grid-auto-rows: 0.25rem; grid-template-columns: 1fr; }
 @media (min-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } }
