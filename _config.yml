@@ -38,3 +38,26 @@ navigation:
     path: about-us
   - title: Contact
     path: contact
+
+members:
+  -
+    name: Geeks for Social Change
+    url: https://gfsc.studio
+    logo: gfsc.svg
+  -
+    name: Northern Police Monitoring Project
+    url: http://npolicemonitor.co.uk
+    logo: npmp.svg
+  -
+    name: Kids of Colour
+    url: https://kidsofcolour.com
+    logo: koc.svg
+  -
+    name: The African Pot Project
+    url: https://tapproject.co.uk
+  -
+    name: Race, Roots & Resistance
+    url: https://www.racerootsresist.com
+  -
+    name: Sites of Resistance
+    url: https://sitesofresistance.org/
