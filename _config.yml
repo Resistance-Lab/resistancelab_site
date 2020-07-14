@@ -25,6 +25,9 @@ contact_github: Resistance_Lab
 
 google_analytics:
 
+# Load news and work that's future dated
+future: true
+
 navigation:
   - title: Home
     path:
