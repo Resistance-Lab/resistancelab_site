@@ -1,5 +1,6 @@
 # paginate: 5
 # paginate_path: "/our-work/page:num/"
+theme: dubois
 kramdown:
   parse_block_html: true
 plugins:
@@ -23,3 +24,17 @@ contact_instagram: ResLabMcr
 contact_github: Resistance_Lab
 
 google_analytics:
+
+navigation:
+  - title: Home
+    path:
+  - title: Our Work
+    path: our-work
+  - title: News
+    path: news
+  # - title: Resources
+  #   path: resources
+  - title: About Us
+    path: about-us
+  - title: Contact
+    path: contact

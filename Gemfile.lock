@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/Resistance-Lab/dubois.git
+  revision: fb512a3ac8e11a9ca4cf2ab615247e9e50b5e72c
+  branch: master
+  specs:
+    dubois (0.0.1)
+      jekyll (~> 3.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -246,6 +254,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dubois!
   github-pages
   jekyll-autoprefixer
   jekyll-paginate

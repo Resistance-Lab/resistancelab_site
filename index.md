@@ -6,7 +6,7 @@ title_fancy: Resistance Lab is a <span>grassroots collective</span><br> that use
 
 <!-- Introduction -->
 
-{% include box.html colour="white" %}
+{% include box.html %}
 
 Our work is an ongoing collaboration between activists, community groups, students, academics, and citizens. Our eventual goal is a world free of state violence with a special focus on Black and Brown communities where we are based in Manchester, UK.
 {:.bigger}
@@ -18,7 +18,7 @@ By creating a space for the communities affected the most by state violence to w
 
 <!-- What is state violence? -->
 
-{% include box.html colour="red" %}
+{% include box.html %}
 
 ## What is state violence?
 
@@ -30,7 +30,7 @@ State violence can cause physical and psychological harm and particularly impact
 
 <!-- Current campaigns -->
 
-{% include box.html colour="black" %}
+{% include box.html %}
 
 ## Our current campaign
 
@@ -44,7 +44,7 @@ Our first report is on the growing threat of tasers used against citizens. [Snap
 
 <!-- About the group -->
 
-{% include box.html colour="white" %}
+{% include box.html %}
 
 ## About Resistance Lab
 
@@ -60,7 +60,7 @@ We welcome new members interested in joining our group. Police officers, people 
 
 <!-- Can we help? -->
 
-{% include box.html colour="red" %}
+{% include box.html %}
 
 ## Can we help your campaign?
 
