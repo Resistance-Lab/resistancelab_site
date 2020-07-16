@@ -253,7 +253,7 @@
     </div>
   </header>
 
-  <main class="main">
+  <main class="main bg" id="js-bg">
     <article class="page page--grid">
       <header>
         
@@ -367,9 +367,10 @@
   window.addEventListener("resize", resizeAllGridItems);
 
   allItems = document.getElementsByClassName("grid__item");
-  for(x=0;x<allItems.length;x++){
-    imagesLoaded( allItems[x], resizeInstance);
-  }
+  // 
+  // for(x=0;x<allItems.length;x++){
+  //   imagesLoaded( allItems[x], resizeInstance);
+  // }
 </script>
 
         </div>
@@ -415,7 +416,7 @@
       <a href="https://tapproject.co.uk" class="member__link">
         <div class="member__name">The African Pot Project</div>
         
-          <img src="https://placedog.net/500/500?random&q=4" alt="The African Pot Project's logo" class="member__image">
+          <img src="/assets/images/logos/tap.svg" alt="The African Pot Project's logo" class="member__image">
         
       </a>
     </li>
@@ -424,7 +425,7 @@
       <a href="https://www.racerootsresist.com" class="member__link">
         <div class="member__name">Race, Roots & Resistance</div>
         
-          <img src="https://placedog.net/500/500?random&q=5" alt="Race, Roots & Resistance's logo" class="member__image">
+          <img src="/assets/images/logos/rrr.svg" alt="Race, Roots & Resistance's logo" class="member__image">
         
       </a>
     </li>
@@ -483,6 +484,63 @@
     </div>
   </footer>
 
-  <script src="/assets/js/main.js"></script>
+  <script>
+  // Navigation toggle
+  const toggle = document.getElementById('js-toggle')
+  const nav = document.getElementById('js-nav')
+
+  toggle.addEventListener('click', function(e) {
+    e.preventDefault();
+    nav.classList.toggle('expanded');
+  });
+
+  // Background image shuffle
+  function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+  }
+
+  // Element to randomize
+  const bgEle = document.getElementById('js-bg');
+
+  // All the images we have
+  const bgImages = [
+    'bars.jpg',
+    'baton.jpg',
+    'gavel.jpg',
+    'handcuffs.jpg',
+    'hat.jpg',
+    'helmet.jpg',
+    'job.jpg',
+    'riot.jpg',
+    'taser.jpg',
+    'visa.jpg'
+  ];
+
+  // Format a string that can go into the CSS
+  const bgImageStr = shuffle(bgImages)
+                            .map((value) => {
+                              return `url('/assets/images/bg/${value}')`
+                            })
+                            .join(', ');
+
+  // Set it
+  bgEle.style['background-image'] = bgImageStr;
+</script>
+
 </body>
 </html>

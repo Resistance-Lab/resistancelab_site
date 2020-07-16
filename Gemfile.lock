@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/Resistance-Lab/dubois.git
-  revision: fb512a3ac8e11a9ca4cf2ab615247e9e50b5e72c
+  revision: bc7296c7172e109bfbbfe645b5633faf4fa67726
   branch: master
   specs:
-    dubois (0.0.1)
+    dubois (0.0.2)
       jekyll (~> 3.8)
 
 GEM
