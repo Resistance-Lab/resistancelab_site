@@ -1,6 +1,6 @@
 ---
 layout: grid
-title: We are a multidisciplinary team of activists, campaigners, citizens and researchers aiming to dismantle the causes of state violence.
+title: We are a multidisciplinary team of activists, campaigners, and researchers aiming to dismantle the causes of state violence.
 title_fancy: We are a <span>multidisciplinary team</span> of<br> <span>activists, campaigners, and researchers</span><br> aiming to dismantle the <span>causes of state violence.</span>
 ---
 
