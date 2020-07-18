@@ -1,6 +1,6 @@
 ---
 layout: grid
-title: We research, create and publish reports, articles, graphs and data sources about state violence and its causes
+title: We research, create and publish reports, articles, graphs, and data sources about state violence and its causes
 title_fancy: We <span>research, create and publish</span><br> reports, articles, graphs and data<br> about <span>state violence and its causes.</span>
 ---
 
@@ -8,7 +8,7 @@ title_fancy: We <span>research, create and publish</span><br> reports, articles,
 
 {% include box.html %}
 
-Our collective works together to identify the issues doing the most harm to the structurally disadvantaged communities we are part of. We then explore the issues together using the multidiciplinary expertise of our members which spans a wide range of fields such as anthropology, community organising, criminology, data science, history, sociology, statistics, and youth work.
+Our collective works together to identify the issues doing the most harm to the structurally disadvantaged communities we are part of. We then explore the issues together using the multidiciplinary expertise of our members--which spans a wide range of fields such as anthropology, community organising, criminology, data science, history, sociology, statistics, and youth work.
 {:.bigger}
 
 This page catalogues the outputs of this ongoing process in the form of longform reports, blog posts, data repositories, and other information and tools designed to help create lasting systemic change.
