@@ -21,7 +21,7 @@ sexual preference, religion or belief. Members from communities and/or backgroun
 traditionally over-policed and/or subjected to other forms of state violence are particularly
 welcome.
 
-How do I get involved?
+**How do I get involved?**
 
 Any prospective new member of Resistance Lab must be referred (or vouched for) by a current member. 
 The current member must put forward the potential member’s name during a meeting or on the listserv. 
