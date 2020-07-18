@@ -13,6 +13,7 @@ The aims of Resistance Lab are:
 
 1. To create a space for the communities most affected by state violence to work with researchers and technologists.
 1. To work together to resist the increasingly data-driven architecture of state oppression.
+1. To research and disseminate information on state violence in creative partnership with our partner organisations.
 1. To pursue a world free of state violence.
 
 ## Powers
@@ -23,6 +24,7 @@ In order to achieve its aims, Resistance Lab may:
 1. Fundraise and apply for funds (maybe add detail about how we fundraise)
 1. Pay group members and contractors to do work towards our aims when needed (add detail)
 1. Work with other groups and exchange information (add detail, principles for partnering with other groups, etc.)
+1. Actively support partner organisations by providing access to data and reports, and by publicising and attending their events.
 
 ## Leadership
 
@@ -40,6 +42,7 @@ wherever possible. To facilitate the management of the group, we have agreed the
 1. Harassment on the basis of sex, gender, gender identity or expression, sexual orientation, physical appearance, ability, race, colour, religion, national origin, class, age, or profession will not be tolerated. Engaging in any such harassment is grounds for removal from Resistance Lab.
 1. Any member of Resistance Lab who chooses to leave the group for any reason should notify the group of their decision, and should then be removed from the listserv.
 1. Resistance Lab maintains an official list of groups we partner with. Whilst members join Resistance Lab as individuals, they may also choose to represent a group. Likewise, groups may formally partner with Resistance Lab through a representative.
+    1. We recognise that many members of Resistance Lab are bringing their knowledge and skills to multiple organisations. To that end, we welcome creative collaborations with partner organisations, in pursuit of our shared goal of ending state violence. This includes (but is not limited to) sharing resources, jointly authoring reports, and jointly hosting events.
 1. Membership entails a commitment to contributing to Resistance Lab. To that end, members shouldn’t just passively receive emails. Whilst we recognise that everyone’s circumstances are different, and contributions take different forms, members should commit to attending 1-2 meetings per year (including the AGM), and to taking on one responsibility (e.g. joining a working group, drafting a report, leading a workshop).   
 1. Members may choose to leave the group for any reason. In the interest of making Resistance Lab a safer and more inclusive space, we invite (but don’t require) members who choose to leave to share their experiences and reasons for leaving with the management group. Members who leave should ask to be removed from the listserv. They may choose to take any work they’ve done as part of the group with them or to leave it behind. They are welcome to rejoin whenever you like using the normal joining procedure.
 1. It may be required from time to time to suspend or remove a member from the group if, for example, they breach the code of conduct or turn out to work for law enforcement. This decision will be taken by the management group, who will then report back to the larger group, if appropriate, on what steps have been taken.
@@ -51,9 +54,10 @@ wherever possible. To facilitate the management of the group, we have agreed the
 1. Resistance Lab currently consists of the following working groups:
     1. **Management group:** see ‘Leadership’.
     1. **Data group:** this working group is tasked with accessing, monitoring, analysing, and storing data on state violence.
+        1. Once Resistance Lab data are made publicly available, we actively encourage partner organisations to use these resources in furtherance of their own work.
     1. **Communications group:** this group disseminates Resistance Lab’s activities and reports on social media, maintains the website, authors blog posts, identifies opportunities to share our work, and responds to media requests. This group is also responsible for developing and revising Resistance Lab’s general media strategy.
 1. Additional working groups may be formed on an ad hoc basis to pursue specific projects.
-    1. The individuals who author a particular report (or other publication) may choose to be listed by name. They may be listed as individuals, or alongside their group affiliation. Partner groups at large are not listed as authors of reports.
+    1. Working groups may include creative partnerships, in which Resistance Lab shares the work of producing reports and/or hosting events with partner organisations. Whilst authors of reports are listed as individuals, authors may also choose to list their group affiliation alongside their name.
 
 ## Funding
 
