@@ -26,23 +26,11 @@ Through workshops and meetings, we have worked together to analyse stop and sear
 
 ## Member organisations
 
-Affiliated organisations include Geeks for Social Change, Kids of Colour, Northern Police Monitoring Project (NPMP), Race, Roots & Resistance (R3), and Sites of Resistance.
+Affiliated organisations include Geeks for Social Change, Kids of Colour, Northern Police Monitoring Project (NPMP), Race, Roots & Resistance (R3), The African Pot Project, and Sites of Resistance.
 
-If you're interested in joining our group or collaborating with us, please get in touch.
+If you're in a group that's interested in collaborating with us, please get in touch.
 
 [Contact us](/contact){:.btn}
-
-{% include endbox.html %}
-
-<!-- Join us -->
-
-{% include box.html colour="white" %}
-
-## Join us
-
-We welcome inquiries from people interested in joining our group. Police officers, people who work in the prisons or probation service, and serving military officers are not welcome. We also have a short vetting process to keep the group a safe place for those who have been the victims of state violence.
-
-[Apply to join the group](/about-us/join){:.btn}
 
 {% include endbox.html %}
 
@@ -51,7 +39,7 @@ We welcome inquiries from people interested in joining our group. Police officer
 
 {% include box.html colour="black" %}
 
-## The small print
+## Our constitution
 
 Our **constitution** governs our group and acts as a shared understanding between members about the purpose of the group. It changes regularly as we better understand our processes and objectives.
 

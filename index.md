@@ -52,10 +52,6 @@ Resistance Lab in (as far as possible) a non-hierarchical group based in Manches
 
 [Read more about the group](/about-us/){:.btn}
 
-We welcome new members interested in joining our group. Police officers, people who work in the prisons or probation service, and serving military officers are not welcome. We do therefore have a short vetting process to keep the group a safe place for those who have been the victims of state violence.
-
-[Find out how to join](/about-us/join){:.btn}
-
 {% include endbox.html %}
 
 <!-- Can we help? -->
