@@ -23,7 +23,7 @@ contact_twitter: ResLabMcr
 contact_instagram: ResLabMcr
 contact_github: Resistance_Lab
 
-google_analytics:
+google_analytics: UA-173520683-1
 
 # Load news and work that's future dated
 future: true
@@ -58,7 +58,7 @@ members:
   -
     name: The African Pot Project
     url: https://tapproject.co.uk
-    logo: tap.svg
+    logo: tap.scg
   -
     name: Race, Roots & Resistance
     url: https://www.racerootsresist.com
