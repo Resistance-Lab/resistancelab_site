@@ -20,10 +20,10 @@ The aims of Resistance Lab are:
 
 In order to achieve its aims, Resistance Lab may:
 
-1. Organise workshops and events
-1. Fundraise and apply for funds (maybe add detail about how we fundraise)
-1. Pay group members and contractors to do work towards our aims when needed (add detail)
-1. Work with other groups and exchange information (add detail, principles for partnering with other groups, etc.)
+1. Organise workshops and events.
+1. Fundraise and apply for funds.
+1. Pay group members and contractors to do work towards our aims when needed.
+1. Work with other groups and exchange information.
 1. Actively support partner organisations by providing access to data and reports, and by publicising and attending their events.
 
 ## Leadership
