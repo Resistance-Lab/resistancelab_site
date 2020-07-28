@@ -48,21 +48,21 @@ members:
     url: https://gfsc.studio
     logo: gfsc.svg
   -
+    name: Race, Roots & Resistance
+    url: https://www.racerootsresist.com
+    logo: rrr.svg
+  -
     name: Northern Police Monitoring Project
     url: http://npolicemonitor.co.uk
     logo: npmp.svg
-  -
-    name: Kids of Colour
-    url: https://kidsofcolour.com
-    logo: koc.svg
   -
     name: The African Pot Project
     url: https://tapproject.co.uk
     logo: tap.svg
   -
-    name: Race, Roots & Resistance
-    url: https://www.racerootsresist.com
-    logo: rrr.svg
+    name: Kids of Colour
+    url: https://kidsofcolour.com
+    logo: koc.svg
   -
     name: Sites of Resistance
     url: https://sitesofresistance.org/

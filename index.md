@@ -8,10 +8,10 @@ title_fancy: Resistance Lab is a <span>grassroots collective</span><br> that use
 
 {% include box.html %}
 
-Our work is an ongoing collaboration between activists, community groups, students, academics, and citizens. Our eventual goal is a world free of state violence with a special focus on Black and Brown communities where we are based in Manchester, UK.
+Our work is an ongoing collaboration between activists, community groups, technologists, students, academics, and citizens. Our eventual goal is a world free of state violence with a special focus on Black and Brown communities where we are based in Manchester, UK.
 {:.bigger}
 
-By creating a space for the communities affected the most by state violence to work with researchers and technologists, we believe we can find new and better ways to work together to resist the increasingly data-driven architecture of state oppression. We believe this will create more just and equitable communities where everyone is included.
+By creating a space for the communities affected the most by state violence to work with researchers and technologists, we believe we can find new and better ways to work together to resist the increasingly data-driven architecture of state oppression.
 {:.bigger}
 
 {% include endbox.html %}
@@ -32,11 +32,13 @@ State violence can cause physical and psychological harm and particularly impact
 
 {% include box.html %}
 
-## Our current campaign
+## Our current work
 
-Use of tasers in Greater Manchester
+_"A Growing Threat to Life: Taser usage by Greater Manchester Police"_ is our first report. It details the growing threat of Taser use against citizens in Greater Manchester and the UK.
 
-Our first report is on the growing threat of tasers used against citizens. [Snappy summary]. [Key demands].
+Our report highlights the alarming growth of Taser use by UK Police. It raises concerns about the use of Taser against children, some of whom are under 11, and the extremely disproportional use against Black citizens.
+
+Based upon the growing 'threat to life' posed by Taser, we call for its abolition.  
 
 [Read the report](/our-work/tasers){:.btn}
 
@@ -58,12 +60,12 @@ Resistance Lab in (as far as possible) a non-hierarchical group based in Manches
 
 {% include box.html %}
 
-## Can we help your campaign?
+## Work with us
 
-Do you do work resisting state violence and want support to do that? Resistance Lab offers a supportive and friendly space to help you research, code, and promote your work.
+If you are interested in tackling state violence, Resistance Lab offers a supportive and friendly space of collaboration.
 
-Participative - people coming together to work collaboratively on addressing these problems.
+We work together, develop new skills, learn and support each other, and build a sense of community. We nurture skills in research, coding, and communications.
 
-[Find out about the work happening](/about-us/can-we-help){:.btn}
+[Get in touch](/contact){:.btn}
 
 {% include endbox.html %}
