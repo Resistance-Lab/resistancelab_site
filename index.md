@@ -50,7 +50,7 @@ Based upon the growing 'threat to life' posed by Taser, we call for its abolitio
 
 ## About Resistance Lab
 
-Resistance Lab in (as far as possible) a non-hierarchical group based in Manchester, UK. We are organised into several “Working Groups” with different specialities.
+Resistance Lab is (as far as possible) a non-hierarchical group based in Manchester, UK. We are organised into several “Working Groups” with different specialities.
 
 [Read more about the group](/about-us/){:.btn}
 
