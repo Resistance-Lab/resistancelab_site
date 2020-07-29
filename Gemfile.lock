@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Resistance-Lab/dubois.git
-  revision: 14904f2546d64e6c9eb196f9a0971bd3cb85be8d
+  revision: c00b8da3ccbbc8e6e6ed2011b1163e598a00431a
   branch: master
   specs:
     dubois (0.0.2)

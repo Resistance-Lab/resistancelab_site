@@ -14,6 +14,7 @@ collections:
 
 site_name: Resistance Lab
 site_description: Collective against state violence
+destination: docs
 
 theme_primary_colour: "#C1272D"
 theme_secondary_colour: "#000000"
