@@ -1,6 +1,6 @@
 ---
 layout: grid
-title: Resistance Lab is a grassroots coalition that uses education, technology and research to find new ways to resist state violence.
+title: Resistance Lab is a grassroots collective that uses education, technology and research to find new ways to resist state violence.
 title_fancy: Resistance Lab is a <span>grassroots collective</span><br> that uses <span>education, technology and research</span><br> to find new ways to <span>resist state violence.</span>
 ---
 
