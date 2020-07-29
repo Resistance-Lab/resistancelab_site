@@ -8,7 +8,7 @@ title_fancy: Resistance Lab is a <span>grassroots collective</span><br> that use
 
 {% include box.html %}
 
-Our work is an ongoing collaboration between activists, community groups, technologists, students, academics, and citizens. Our eventual goal is a world free of state violence with a special focus on structurally disadvantaged communities where we are based in Greater Manchester, UK.
+Our work is an ongoing collaboration between scholars, activists, and grassroots community groups working to confront state violence in Greater Manchester. We are committed to participatory democratic approaches that bring technology and data experts into collaborative partnership with anti-racist activists, in order to find new ways to resist state violence and create more just and equitable communities. 
 {:.bigger}
 
 By creating a space for the communities affected the most by state violence to work with researchers and technologists, we believe we can find new and better ways to work together to resist the increasingly data-driven architecture of state oppression.
