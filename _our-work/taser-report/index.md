@@ -7,6 +7,7 @@ teaser: |
   With Tasers being rolled out around the country and an absence of accountability, we can only expect to see more cases in which members of the public suffer serious injury or loss of life.
 
   Resistance Lab stands in solidarity with the victims and families impacted by police usage of tasers and with this report we make one simple demand: **the abolition of tasers**.
+social-image: posts/taser-report/cover.jpg
 ---
 
 ## About this report
@@ -38,7 +39,7 @@ Resistance Lab is committed to producing high quality reports based on accurate 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
-<img src="/assets/images/posts/taser-report/cover.jpg" class="image image--full" alt="A black and white illustration of a woman sitting at a desk reading a police report and holding a mug.">
+<img src="/assets/images/posts/taser-report/cover.jpg" class="image image--full" alt="A black and white illustration of a protest held in front of a public building (Manchester Central Library pictured, but this could be any public building). Members of the public are holding signs, including signs reading ‘Abolish Tasers Now’ and ‘Black Lives Matter’. In front of the fence a police officer stands with his arms held in front of them, a Taser visible on their person.">
 
 ## Executive Summary
 
