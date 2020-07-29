@@ -8,7 +8,7 @@ title_fancy: We <span>research, create and publish</span><br> reports, articles,
 
 {% include box.html %}
 
-Our collective works together to identify the issues doing the most harm to the structurally disadvantaged communities we are part of. We then explore the issues together using the multidisciplinary expertise of our members--which spans a wide range of fields such as: anthropology; community organising; criminology; data science; history; programming; sociology; statistics; and youth work.
+Our collective works together to identify the issues doing the most harm to the structurally disadvantaged communities we are part of. We then explore the issues together using the multidisciplinary expertise of our members, which spans a wide range of fields such as: anthropology, community organising, criminology, data science, history, programming, sociology, statistics, and youth work.
 {:.bigger}
 
 This page catalogues the outputs of this ongoing process in the form of longform reports, blog posts, data repositories, and other information and tools designed to help create lasting systemic change.
