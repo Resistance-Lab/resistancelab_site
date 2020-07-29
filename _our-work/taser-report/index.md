@@ -142,7 +142,7 @@ Expanded access to Tasers has contributed to a significant growth in the use of 
 
 CComparing incidents of Taser usage across years is complicated by recent changes in the Home Office's recording practices. Specifically, the Home Office collected and reported Taser usage data by calendar year (Jan-Dec) until 2017 when it shifted to a financial year basis (Apr-Mar). While acknowledging these limitations, the year-on-year growth in total Taser usage remains striking with 7,877 incidents reported in 2011 increasing to 8,161 (2012), 10,380 (2013), 10,095 (2014), 10,390 (2015), 11,294 (2016), 16,913 (2017/18) and 23,451 (2018/19). Based on these figures, police more than doubled their use of Tasers in the last three years (UK Home Office, [2017](#Ukho17), [2018](#Ukho18), [2019](#Ukho19)).
 
-<!-- Overall annual Taser use by England and Wales police, 2009-19 -->
+{% include observable.html notebook="2b62e2b2370935bd" name="overallTaserUseChart" %}
 
 The Home Office data also indicates that police are showing an increased willingness to draw their weapon without discharging it. Between 2011 and 2015, the police discharged the Taser in approximately 1 in every 5 incidents. In subsequent years, that number has declined to 1 in every 8 incidents despite growing access to and use of Tasers (ibid.).  
 
@@ -175,17 +175,17 @@ An examination of Home Office use of force data on the Greater Manchester Police
 
 Home Office data for April 2018 through March 2019 indicates that GMP reported more incidents involving Tasers (1,442), whether discharged or not, than any other force with the exception of the Metropolitan Police (7,396). In total, GMP accounted for 6% of all incidents involving a Taser in England and Wales in 2018/19.
 
-<!-- Police Taser use in England and Wales, 2018-19 -->
+{% include observable.html notebook="fab5bcfd71c811d7" name="taserUseCountChart" %}
 
 It is perhaps unsurprising that police forces located in heavily populated urban areas report larger total numbers of incidents involving Tasers. However, an examination of the rate of Taser usage per 100 officers reveals that GMP ranked 11th highest out of the forty-three forces in England and Wales. In total, GMP averaged 22 incidents involving a Taser per 100 officers between April 2018 and March 2019. Northamptonshire Police — the first force to make Tasers available to all frontline officers in 2019 — had the highest rate at 47 incidents per 100 officers.
 
-<!-- Police Taser use in England and Wales per 100 officers, 2018-19 -->
+{% include observable.html notebook="09b0c9da5e0018e9" name="taserUsePerHundredChart" %}
 
 ### 2. The rate at which GMP uses Tasers is rising quickly
 
 GGMP’s use of Tasers is rapidly increasing, with a total of 1,442 incidents in 2018/19 up from 832 in 2017/18, 799 in 2016, and 779 in 2015. In the last financial year alone GMP’s Taser use increased by 73%. This increase comes on the heels of GMP's decision in June 2017 to double the number of officers trained to use Tasers, resulting in 1,100 of the force's 6,300 frontline officers equipped with the weapon ([BBC, 2017](#Bbc17)). Though 2018/19 witnessed a significant expansion in the weapon’s availability and use nationwide, GMP’s rate of increase (73%) exceeded the national average of 39% as well as that of comparable forces such as the Metropolitan Police which reported a 49% increase in the use of CEDs.
 
-<!-- The 10 UK police forces in England and Wales with the biggest increase in Taser use between 2017-18 and 2018-19 -->
+{% include observable.html notebook="ddc4b7ae00990272" name="taserUseIncreaseChart" %}
 
 ### 3. GMP are firing their Tasers more often than other forces
 
@@ -195,7 +195,7 @@ GMP officers are also more likely to discharge a Taser during the course of thei
 
 GMP also reports significant racial disparities in the usage of Tasers with Black people disproportionately impacted. In 2018/19, GMP reported 1,442 incidents involving use of a Taser in Greater Manchester. Of that total, the ethnicity of the subject was perceived by the reporting officer to be White in 1,118 (78%); Black in 142 (10%); Asian in 94 (7%); Chinese in 2 (0.1%); Mixed in 48 (3%); Other in 20 (1%) and Don’t Know in 18 (1%). Though whites constituted a numerical majority, Black people were subject to the use of Taser, whether discharged or not, at nearly 4 times the rate of white people by GMP ([Office for National Statistics 2011](#Offi11)).
 
-<!-- Relative chance of being involved in a police Taser incident in England and Wales: Black (or Black British) vs White, 2018-19 -->
+{% include observable.html notebook="54f4946ca8b4a55d" name="taserUseEthnicityChart" %}
 
 ### 5. GMP are using Tasers against children at high rates, even those under the age of 11 years
 
@@ -207,7 +207,7 @@ Unfortunately, we do not have data that considers age in relation to other chara
 
 The situation is even more troubling when considering the specific experiences of children under the age of 11 years. Between April 2018 and March 2019, the Home Office reported 29 incidents of Tasers being used against children under the age of 11 years in England and Wales. Of those incidents, GMP was responsible for a total of 8 – more than any other force in the country. The Home Office cautions that there are “known errors in the under 11 data”, including instances of Taser usage against animals and other cases that have been “incorrectly categorised”. However, such findings demand urgent clarification and are indicative of a culture in which the threat and use of violence against children is increasingly normalised.
 
-<!-- Police Taser use against children age 17 and under in England and Wales, 2018-19 -->
+{% include observable.html notebook="a698fe3a8517ca5d" name="taserUseAgeChart" %}
 
 ### 6. GMP are using Tasers against people with disabilities at high rates
 
@@ -215,7 +215,7 @@ Home Office use of force statistics include data related to disability. However,
 
 Despite these challenges, Home Office data does provide a window into some of the disparities that exist in Taser usage related to people perceived by officers as having “physical or mental disabilities.” In 2018/19, GMP reported that individuals perceived to have either physical or mental disabilities constituted 210 or 15% of all Taser incidents (1,442). An examination of the rate of Taser usage against such individuals reveals that GMP ranked 23rd highest out of forty-three forces in England and Wales. Between April 2018 and March 2019, GMP averaged 3.3 incidents involving the use of a Taser against an individual with mental and/or physical disabilities per 100 officers. Particularly high average rates of Taser usage against individuals with disabilities were recorded by smaller forces — such as Devon & Cornwall (9.4 per 100 officers), Dyfed-Powys (8.8 per 100 officers) and Northamptonshire (8.9 per 100 officers).
 
-<!-- Proportion of Police Taser use in England and Wales against those identified by the officer to have a disability, 2018-19 -->
+{% include observable.html notebook="f932805227214b2d" name="taserUseDisabilityChart" %}
 
 ## The impact: Taser use by Greater Manchester Police
 
