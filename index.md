@@ -32,7 +32,7 @@ State violence can cause physical and psychological harm and particularly impact
 
 {% include box.html %}
 
-## Our current work
+## [Our current work](/our-work/)
 
 _"A Growing Threat to Life: Taser usage by Greater Manchester Police"_ is our first report. It details the growing threat of Taser use against citizens in Greater Manchester and the UK.
 
@@ -48,7 +48,7 @@ Based upon the growing 'threat to life' posed by Taser, we call for its abolitio
 
 {% include box.html %}
 
-## About Resistance Lab
+## [About Resistance Lab](/about-us/)
 
 Resistance Lab is (as far as possible) a non-hierarchical group based in Manchester, UK. We are organised into several “Working Groups” with different specialities.
 
@@ -60,7 +60,7 @@ Resistance Lab is (as far as possible) a non-hierarchical group based in Manches
 
 {% include box.html %}
 
-## Work with us
+## [Work with us](/contact)
 
 If you are interested in tackling state violence, Resistance Lab offers a supportive and friendly space of collaboration.
 

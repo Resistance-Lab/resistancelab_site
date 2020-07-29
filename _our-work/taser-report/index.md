@@ -33,7 +33,7 @@ As far as possible this report has been created using public data sources and re
 
 ### Corrections and clarifications
 
-Resistance Lab is committed to producing high quality reports based on accurate data and findings. If you see a mistake, please let us know by emailing info@resistance.network. We will correct any errors as quickly and transparently as possible and make a note of them here.
+Resistance Lab is committed to producing high quality reports based on accurate data and findings. If you see a mistake, please let us know by emailing [info@resistance.network](mailto:info@resistance.network). We will correct any errors as quickly and transparently as possible and make a note of them here.
 
 ### License
 
@@ -79,9 +79,14 @@ The first part of the report is dedicated to an examination of these broad conce
 
 Conducted Energy Devices (CEDs), more commonly known by the brand name Taser, are potent weapons designed to transmit 50,000 volts of electricity to shock and incapacitate individuals. The weapon fires needle-tipped darts up to 21 feet, penetrating clothing and delivering an electrical charge  into the body. In the drive-stun mode, the weapon is held directly against the body for greater potency to achieve pain compliance ([IPCC, 2014](#Inde14)).
 
-<figure class="image image--right" markdown="0">
-  <img src="/assets/images/posts/taser-report/taser-2up.jpg">
-  <figcaption>Left: three officers at a protest in Wales carrying Tasers. Right: a photograph of a Taser X26.</figcaption>
+<figure class="image image--right image--smaller" markdown="0">
+  <img src="/assets/images/posts/taser-report/taser-police.jpg">
+  <figcaption>Three officers at a protest in Wales carrying Tasers.</figcaption>
+</figure>
+
+<figure class="image image--right image--smaller" markdown="0">
+  <img src="/assets/images/posts/taser-report/taser.jpg">
+  <figcaption>A photograph of a Taser X26.</figcaption>
 </figure>
 
 CEDs, or Tasers, were first introduced into police forces in England and Wales in 2003. The nearly two decades since have witnessed a significant expansion in police access to and usage of Tasers. Initially trialed with specialist firearms officers in five forces, the weapon was made available in 2008 to non-firearms officers and subsequently rolled out to all 43 police forces in England and Wales in 2013. Deployed in the first instance as a ‘less lethal’ alternative to firearms, Tasers are now used by police in a much wider array of circumstances ([McGuinness, 2016](#Mcgu16); [UK Home Office, 2019](#Ukho19)).  

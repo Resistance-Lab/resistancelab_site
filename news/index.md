@@ -8,7 +8,7 @@ title_fancy: What's going on with Resistance Lab?<br> <span>News, events and upd
 
 {% include box.html %}
 
-## {{ news.title }}
+## [{{ news.title }}]({{ news.url }})
 
 **Published {{ news.date | date: "%-d %B %Y" }}**
 

@@ -20,7 +20,7 @@ This page catalogues the outputs of this ongoing process in the form of longform
 
 {% include box.html %}
 
-## {{ work.title }}
+## [{{ work.title }}]({{ work.url }})
 
 **Published {{ work.published | date: "%-d %B %Y" }}**
 
