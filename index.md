@@ -40,7 +40,7 @@ Our report highlights the alarming growth of Taser use by UK Police. It raises c
 
 Based upon the growing 'threat to life' posed by Taser, we call for its abolition.  
 
-[Read the report](/our-work/taser-report){:.btn}
+[Read the report](/our-work/taser-report/index.html){:.btn}
 
 {% include endbox.html %}
 
