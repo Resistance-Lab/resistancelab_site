@@ -24,7 +24,7 @@ Please cite it as: Resistance Lab (2020). _A Growing Threat to Life: Taser Usage
  * Contributors: Becky Clarke, Laura Connelly, Kim Foale, Remi Joseph-Salisbury and Patrick Williams
  * Data & graphs: Kim Foale & Alice Kaerast with support from Amran Anjum and Phoebe Queen
  * Graphic design and print: [Emma Charleston](https://www.emmacharleston.co.uk/)
- * Editorial illustration: [Hawwa Alam](hawwaetc.com)
+ * Editorial illustration: [Hawwa Alam](https://www.hawwaetc.com/)
  * Additional support from: Sibia Akhtar, Jazz Chatfield, Roxy Legane, Angeli Sweeney & Meghan Tinsley
  * Special thanks to: Dr Michael Shiner, London School of Economics
 
