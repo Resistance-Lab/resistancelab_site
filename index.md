@@ -8,7 +8,7 @@ title_fancy: Resistance Lab is a <span>grassroots collective</span><br> that use
 
 {% include box.html %}
 
-Our work is an ongoing collaboration between scholars, activists, and grassroots community groups working to confront state violence in Greater Manchester. We are committed to participatory democratic approaches that bring technology and data experts into collaborative partnership with anti-racist activists, in order to find new ways to resist state violence and create more just and equitable communities. 
+Our work is an ongoing collaboration between scholars, activists, and grassroots community groups working to confront state violence in Greater Manchester. We are committed to participatory democratic approaches that bring technology and data experts into collaborative partnership with anti-racist activists, in order to find new ways to resist state violence and create more just and equitable communities.
 {:.bigger}
 
 By creating a space for the communities affected the most by state violence to work with researchers and technologists, we believe we can find new and better ways to work together to resist the increasingly data-driven architecture of state oppression.
@@ -40,7 +40,7 @@ Our report highlights the alarming growth of Taser use by UK Police. It raises c
 
 Based upon the growing 'threat to life' posed by Taser, we call for its abolition.  
 
-[Read the report](/our-work/tasers){:.btn}
+[Read the report](/our-work/taser-report){:.btn}
 
 {% include endbox.html %}
 
