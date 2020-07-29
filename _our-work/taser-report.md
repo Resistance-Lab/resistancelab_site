@@ -8,7 +8,7 @@ teaser: |
 
   Resistance Lab stands in solidarity with the victims and families impacted by police usage of tasers and with this report we make one simple demand: **the abolition of tasers**.
 social-image: posts/taser-report/cover.jpg
-description: With Tasers being rolled out around the country and an absence of accountability, we can only expect to see more cases in which members of the public suffer serious injury or loss of life. Resistance Lab stands in solidarity with the victims and families impacted by police usage of tasers and with this report we make one simple demand: the abolition of tasers.
+description: "With Tasers being rolled out around the country and an absence of accountability, we can only expect to see more cases in which members of the public suffer serious injury or loss of life. Resistance Lab stands in solidarity with the victims and families impacted by police usage of tasers and with this report we make one simple demand: the abolition of tasers."
 ---
 
 ## About this report
