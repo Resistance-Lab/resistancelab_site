@@ -24,13 +24,15 @@ Please cite it as: Resistance Lab (2020). _A Growing Threat to Life: Taser Usage
  * Contributors: Becky Clarke, Laura Connelly, Kim Foale, Remi Joseph-Salisbury and Patrick Williams
  * Data & graphs: Kim Foale & Alice Kaerast with support from Amran Anjum and Phoebe Queen
  * Graphic design and print: [Emma Charleston](https://www.emmacharleston.co.uk/)
- * Editorial illustration: [Hawwa Alam](https://www.hawwaetc.com/)
+ * Editorial illustration: [Hawwa Alam](https://hawwaetc.com)
  * Additional support from: Sibia Akhtar, Jazz Chatfield, Roxy Legane, Angeli Sweeney & Meghan Tinsley
  * Special thanks to: Dr Michael Shiner, London School of Economics
 
 ### Methodology
 
 As far as possible this report has been created using public data sources and references. We have made all of the code used to gather and format this information available in our [public data repository](http://data.resistancelab.network/). The report was written and edited in an Observable Notebook, an interactive programming environment that documents and allow live manipulation of all graphs and calculations. We encourage other groups to review, modify and adapt our methodology.
+
+[Explore the Observable Notebook for this report](https://observablehq.com/@resistancelab/a-growing-threat-to-life-taser-usage-by-greater-manchester-p){:.btn}
 
 ### Corrections and clarifications
 
@@ -280,7 +282,7 @@ These stories powerfully illustrate the concerns of researchers, human rights an
 
 In each incident GMP were contacted by a family member, neighbour or medical professional concerned for the safety of a person in a state of medical or emotional distress. Upon arrival, officers – often within minutes or seconds — deployed a Taser, escalating the situation with lethal consequences for the victims. As the jury in the inquest to Jordan Begley's death concluded, the officers appeared 'more concerned about their own safety' than that of the person they had been contacted to assist.
 
-Few are likely to disagree that the actions of the officers in question broke with the foundational principle of _minimal force_, which establishes that “[w]hen force is used it shall be exercised with restraint” and that “[i]t shall be the mimimum honestly and reasonably judged to be necessary to attain the lawful objective”. Or, that the officers' violated the mandate to “take into account the implications [and] potentially greater impact of force” on vulnerable adults ([HM Inspectorate of Constabulary, 2011](#Hmin11)).
+Few are likely to disagree that the actions of the officers in question broke with the foundational principle of _minimal force_, which establishes that “[w]hen force is used it shall be exercised with restraint” and that “[i]t shall be the minimum honestly and reasonably judged to be necessary to attain the lawful objective”. Or, that the officers' violated the mandate to “take into account the implications [and] potentially greater impact of force” on vulnerable adults ([HM Inspectorate of Constabulary, 2011](#Hmin11)).
 
 Yet despite the Herculean efforts of the surviving victims and their families, no officers were held accountable for their role in these tragedies and the national reckoning on Tasers never took place.
 
