@@ -1,0 +1,17 @@
+<figure id="observablehq-{{ include.name }}" class="image image--full image--graph"></figure>
+<script type="module" markdown="0">
+    import { Runtime, Inspector } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+    const article = document.querySelector("#observablehq-{{ include.name }}, .observablehq");
+
+    import define from "https://api.observablehq.com/d/{{ include.notebook }}.js?v=3";
+
+    const inspect = Inspector.into("#observablehq-{{ include.name }}");
+
+    const runtime = new Runtime;
+    const module0 = runtime.module(define, name => name === "{{ include.name }}" ? inspect() : undefined);
+
+    module0.redefine('width', article.offsetWidth)
+    window.addEventListener("resize", () => {
+        module0.redefine('width', article.offsetWidth)
+    });
+</script>
