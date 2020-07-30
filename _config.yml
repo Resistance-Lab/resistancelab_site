@@ -1,6 +1,6 @@
 # paginate: 5
 # paginate_path: "/our-work/page:num/"
-theme: dubois
+remote_theme: Resistance-Lab/dubois
 kramdown:
   parse_block_html: true
 plugins:
@@ -14,7 +14,6 @@ collections:
 
 site_name: Resistance Lab
 site_description: Collective against state violence
-destination: docs
 theme_primary_colour: "#C1272D"
 theme_secondary_colour: "#000000"
 
