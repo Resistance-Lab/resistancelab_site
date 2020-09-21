@@ -4,7 +4,7 @@ title: What's going on with resistance lab? News, events and updates
 title_fancy: What's going on with Resistance Lab?<br> <span>News, events and updates</span>
 ---
 
-{% for news in site.news %}
+{% for news in site.news reversed %}
 
 {% include box.html %}
 
