@@ -8,7 +8,7 @@ excerpt: Our latest dataset makes the IOPC statistics on deaths during or follow
 
 Our latest dataset in our [data respository](https://data.resistancelab.network/) is the <abbr title="Independent Office for Police Conduct">IOPC</abbr> annual statistics on [deaths during or following police contact](https://data.resistancelab.network/cleaned_data/deaths-during-or-following-police-contact/), made available in an open CSV format at the force-level.
 
-The IOPC goes out of its way to block automated downloads of this data, and it is hard to process their spreadsheets in Python due to multiple tables per sheet. We have therefore added the data to the repository to make it easier to work with. It was largely processed using the excellent utility [Tabula](https://tabula.technology/).
+The IOPC goes out of its way to block automated downloads of this data, and it is hard to process their spreadsheets in Python due to multiple tables per sheet. We have therefore added the data to the repository to make it easier to work with.
 
 We also make multiple versions of the [source data](https://data.resistancelab.network/source_data/deaths-during-or-following-police-contact/) available for download, since investigations take considerable time to complete and previous years data does change considerably.
 
