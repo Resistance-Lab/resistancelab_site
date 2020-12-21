@@ -14,4 +14,4 @@ We also make multiple versions of the [source data](https://data.resistancelab.n
 
 This data provides a count of deaths in or following police custody, incidents and deaths following road traffic incidents involving the police, fatal shootings, and apparent suicides as well as other deaths. We have also put together a notebook to get started with analyzing this data.
 
-[View our Google Colab notebook on deaths involving collisions with a police vehicle](https://colab.research.google.com/drive/1Rk-1Yx-kbnNYXR2O2c_vmfs1XK8qkJIo){:.btn}
+[View our Google Colab notebook on deaths involving police road traffic incidents](https://colab.research.google.com/drive/1Rk-1Yx-kbnNYXR2O2c_vmfs1XK8qkJIo){:.btn}
