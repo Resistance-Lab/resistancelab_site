@@ -36,7 +36,10 @@ wherever possible. To facilitate the management of the group, we have agreed the
 ## Membership
 
 1. Our goal is to operate as a relatively closed group, with members who all know each other. We do this to ensure the safety of the group members, and to create a sense of community to discuss difficult issues. Practices for joining Resistance Lab work towards this aim.
-1. Any prospective new member of Resistance Lab must be referred (or vouched for) by a current member. The current member must put forward the potential member’s name during a meeting or on the listserv. If there is no objection from any other current member, the new member will be added to the listserv.
+1. In order to maintain this community, we have some limitations on new members joining the group.
+    1. Prospective new member of Resistance Lab will ideally be vouched for by one or more current members.
+    1. If there is a clear wish for a new member to join the group who cannot be vouched for, at least two members of the group will interview the new member to judge suitability and make a reccomendation to the group.
+1. Proposals to add new members are suggested to the listserv. If there is no objection from any other member in 48 hours, the new member will become a group member and added to the listserv and other group communication tools. Discussion of new members will be deleted from the list archive after a decision has been made to allow frank discussion.
 1. New members should introduce themselves and share their reasons for joining ResistanceLab on the listserv. These introductions will be archived, in order to produce a complete record of all current and former members of Resistance Lab.
 1. Resistance Lab will not share a platform with the police, nor invite active or former police to join the group.
 1. Harassment on the basis of sex, gender, gender identity or expression, sexual orientation, physical appearance, ability, race, colour, religion, national origin, class, age, or profession will not be tolerated. Engaging in any such harassment is grounds for removal from Resistance Lab.
