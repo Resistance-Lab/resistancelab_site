@@ -23,7 +23,7 @@ The event will be [livestreamed on YouTube](https://www.youtube.com/channel/UCvz
 
 If you want to ask our panel a question in person or by text, [please fill in this form.](https://forms.gle/B6H7FCpAJBNocjGh8)
 
-_[Sign up on Eventbrite](https://www.eventbrite.co.uk/e/no-more-tasers-live-panel-discussion-tickets-142893601609) if you'd like to get reminders!_
+_[Sign up on Eventbrite](https://www.eventbrite.co.uk/e/no-more-tasers-live-panel-discussion-tickets-142893601609) if you'd like to get reminders! Want to share this event with your friends? Here's a [square](/assets/images/posts/no-more-tasers/no-more-tasers-square.png) and [wide](/assets/images/posts/no-more-tasers/no-more-tasers-wide.png) e-flyer._
 
 ### Panel
 
