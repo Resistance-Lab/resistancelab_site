@@ -4,7 +4,7 @@ author: Kim
 title: "No more Tasers: Live panel event"
 title_fancy: "<span>No more Tasers:</span><br> Live panel event"
 excerpt: Our latest dataset makes the IOPC statistics on deaths during or following police contact available in an open format.
-social-image: posts/no-more-tasers/no-more-tasers-square.jpg
+social-image: posts/no-more-tasers/no-more-tasers-square.png
 ---
 
 <img src="/assets/images/posts/no-more-tasers/no-more-tasers-wide.png" class="image" alt="An e-flyer for the No More Tasers event. The text says: 'NO MORE TASERS: Live Panel Event. Police are using Tasers more than ever before, according to new data. GMP want to double the number of Tasers on the street. Join us for a discussion. March 18th, 17:00 - 18:30, Live YouTube Stream.'. It is accompanied with a black and white illustration of 4 #BLM protestors.">
