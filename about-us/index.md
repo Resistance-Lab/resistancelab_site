@@ -50,3 +50,17 @@ Our **code of conduct** is an agreement all members take when joining the group.
 [Read our Code of Conduct](/about-us/code-of-conduct){:.btn}
 
 {% include endbox.html %}
+
+<!-- Publishing -->
+
+{% include box.html colour="white" %}
+
+## Our publishing process
+
+We work hard to make sure our work is accurate, high quality, and statistically sound.
+
+We release all our work under a Creative Commons BY-SC-NA license unless otherwise stated.
+
+[Read about our process](/about-us/our-publishing-process){:.btn}
+
+{% include endbox.html %}
