@@ -7,7 +7,7 @@ teaser: |
   Infographics published by GMP on their website and circulated to community groups indicated that their Taser use was declining. However, this is directly contradicted by data reported by GMP to the Home Office which shows Tasers being used at more than double the rate claimed in these infographics.
 
   We call on the Mayor and Deputy Mayor to immediately halt the decision to roll out Tasers to even more officers.
-social-image: posts/taser-report/cover.jpg
+social-image: our-work/gmp-taser-update/gmp-use-social.jpg
 description: |
   Infographics published by GMP on their website and circulated to community groups indicated that their Taser use was declining. However, this is directly contradicted by data reported by GMP to the Home Office which shows Tasers being used at more than double the rate claimed in these infographics.
 
@@ -35,7 +35,7 @@ Despite their claims to the contrary, Greater Manchester Police (GMP) are now us
 
 [Infographics published](https://web.archive.org/web/20201025135947/https://www.gmp.police.uk/police-forces/greater-manchester-police/areas/greater-manchester-force-content/sd/stats-and-data/use-of-force/) by GMP on their website and circulated to community groups indicated that their Taser use was declining. However, this is directly contradicted by data reported by GMP to the Home Office which shows Tasers being used at more than double the rate claimed in these infographics for the same April 2019 - March 2020 period. The Home Office data show that GMP’s Taser usage has actually increased a further 7%, and is now at its highest ever level. Racial disproportionalities have widened, with Black people now more than 5 times more likely to be the subject of a use of force incident involving Taser than white people. Use against children has also increased from 118 to 132 incidents.
 
-![Infographic showing reporting taser deployments to community groups: 763 times vs to UK Home Office: 1543 times](/assets/images/our-work/taser-report-update-19-20/Taserdeployment-01.jpg){:.image}
+![Infographic showing reporting taser deployments to community groups: 763 times vs to UK Home Office: 1543 times](/assets/images/our-work/gmp-taser-update/gmp-reported-use.jpg){:.image}
 
 In the last year, GMP have been placed into ‘special measures’ over systemic data mishandling including the loss of 80,000 crime reports culminating in their most senior officer resigning over the matter. The force was also ordered by the <abbr title="Independent Office for Police Conduct">IOPC</abbr> to issue an apology to Michael Gilchrist, a fifty-three-year-old man diagnosed with autism and a learning difficulty, who was repeatedly subjected to Taser and CS gas following a mental health episode in 2014.
 
@@ -57,18 +57,17 @@ Following the report’s publication and against the backdrop of wider #BlackLiv
 
 However, Bailey’s predictions are in direct contradiction to the Home Office’s latest [use of force](https://www.gov.uk/government/statistics/police-use-of-force-statistics-england-and-wales-april-2019-to-march-2020) statistics which show further increases in Taser usage in Greater Manchester and across the nation. Between April 2019 and March 2020, the Home Office reported a total of **32,057** incidents in which a Taser was used, whether discharged or not, by police in England and Wales. This constituted a **36.7% increase** in Taser usage from 2018/19 when 23,451 incidents were reported. During that same period, GMP reported that the force’s Taser usage had increased by **7%** up from 1,442 incidents in 2018/19 to a new high of **1,543** incidents in 2019/20.
 
-{% include observable.html notebook="d64d727e1d3de900" name="taserUseCountChartembed" %}
+{% include observable.html notebook="7a26aaa993f7a6b8" name="taserUseCountChart" %}
 
 Greater Manchester’s Black communities continue to bear the brunt of police use of force with racial disproportionalities in Taser usage increasing in 2019/20. Of the 1,543 incidents, the ethnicity of the subject was perceived by the reporting officer to be White in 1,073 (69.5%); Black in 182 (11.8%); Asian in 138 (8.9%); Mixed in 45 (2.9%); Other in 65 (4.2%); and Not Reported in 40 (2.6%). When compared to 2018/19, Taser usage did fall against White people, down from 1,118 to 1,073 incidents. However, during the same period, Taser usage actually increased against Black people from 142 incidents to **182** incidents. In total, Black people in Greater Manchester were subject to Taser usage at more than 5 times the rate of their white counterparts.
 
-
-{% include observable.html notebook="d64d727e1d3de900" name="taserUseEthnicityChart" %}
+{% include observable.html notebook="b1ff5c38f25ed625" name="taserUseEthnicityDisproportionalityChart" %}
 
 The new data also indicates that the weapon is still being used against the most vulnerable in our communities including children and those with disabilities and mental ill health. Between April 2019 and March 2020, GMP reported **132** incidents involving the use of a Taser against children under the age of 18. This represents an increase in GMP’s use of Taser against children under the age of 18 up from 118 incidents in 2018/19. Of that total, 11 were against children under the age of 11 years though the weapon was discharged in none.
 
-{% include observable.html notebook="d64d727e1d3de900" name="taserUseDisabilityChartembed" %}
+{% include observable.html notebook="613f8b36d02fa2bd" name="taserUseDisabilityChart" %}
 
-{% include observable.html notebook="d64d727e1d3de900" name="taserUseAgeChartembed" %}
+{% include observable.html notebook="e3a935cfd1851890" name="taserUseAgeChart" %}
 
 In short, the new Home Office data establishes that between April 2019 and March 2020 GMP’s use of Taser continued to grow and that concerns about racial disproportionalities in the weapon’s usage as well as it’s impact on children and other vulnerable communities have deepened. Despite these known risks, GMP are moving forward with a decision to [double the number of Taser-trained officers](https://www.telegraph.co.uk/news/2021/02/02/police-chief-pledges-arm-frontline-officers-tasers/) in 2020/21 drawing on new funds from the Home Office.
 
