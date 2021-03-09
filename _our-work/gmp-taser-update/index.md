@@ -20,7 +20,7 @@ description: |
 
 This report was written by the Resistance Lab collective. More about us on our website: resistancelab.network.
 
-Please cite it as: Resistance Lab (2021). Despite their claims to the contrary, Taser usage by Greater Manchester Police has risen to its highest ever level. Manchester, UK. Retrieved from: [resistancelab.network/](https://resistancelab.network/our-work/taser-report-update-19-20/index.html).
+Please cite it as: Resistance Lab (2021). Despite their claims to the contrary, Taser usage by Greater Manchester Police has risen to its highest ever level. Manchester, UK. Retrieved from: [resistancelab.network/](https://resistancelab.network/our-work/gmp-taser-update/index.html).
 
 * Lead author: Kerry Pimblott
 * Contributors: Becky Clarke, Laura Connelly, Kim Foale, Alice Kaerast and Remi Joseph-Salisbury
