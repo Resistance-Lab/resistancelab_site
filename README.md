@@ -1,10 +1,17 @@
-# WIP: GFSC's Jekyll Boilerplate
+# Resistance Lab Website
 
-There are many boilerplates out there, but this is ours.
+To run this locally
 
-## Site setup list
+```
+git clone https://github.com/Resistance-Lab/resistancelab_site
+bundle
+bundle exec jekyll serve --livereload
+```
 
-1. Register domain name [and configure to use GHP](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
-1. Create Google Analytics account and place key in `config.yml`
-1. Create favicons and touch icons using [favicon generator](https://realfavicongenerator.net/)
-1. Create OG images at 2:1 and 1:1 ratios. Make sure they're linked properly in `includes/meta.html`.
+## Tests
+
+There is a small test suite to validate pages and check links work. To run it:
+
+```
+rake test
+```
