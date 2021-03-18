@@ -19,11 +19,36 @@ We say no more.
 
 **Join our public discussion on March 18th at 17:00 - 18:30 GMT.**
 
-The event will be [livestreamed on YouTube](https://www.youtube.com/channel/UCvzXnxZlpDzJNSnJj8ej_mw), and available on our website afterwards.
+The event will be [livestreamed on our YouTube channel](https://www.youtube.com/channel/UCvzXnxZlpDzJNSnJj8ej_mw), and available on our website afterwards. We've embedded it below as well.
 
 If you want to ask our panel a question in person or by text, [please fill in this form.](https://forms.gle/B6H7FCpAJBNocjGh8)
 
 _[Sign up on Eventbrite](https://www.eventbrite.co.uk/e/no-more-tasers-live-panel-discussion-tickets-142893601609) if you'd like to get reminders! Want to share this event with your friends? Here's a [square](/assets/images/posts/no-more-tasers/no-more-tasers-square.png) and [wide](/assets/images/posts/no-more-tasers/no-more-tasers-wide.png) e-flyer._
+
+<style type="text/css">
+.youtube {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.youtube::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/E3fhd5xjmcA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Panel
 
