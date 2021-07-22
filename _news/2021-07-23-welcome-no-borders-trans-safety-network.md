@@ -12,7 +12,7 @@ Beginning in 2018, representatives from Northern Police Monitoring Project and G
 
 In August last year, we published our inaugural report [_A Growing Threat to Life: Taser usage by Greater Manchester Police_](/our-work/gmp-taser-update/index.html), which was then followed by a [report into the false claims made by GMP this year](/our-work/gmp-taser-update/index.html), and a [panel discussion on the use of Tasers nationally](/news/2021-02-25-no-more-tasers-panel.html). 
 
-Through this work we've been working closely with representatives from No Borders Manchester and Trans Safety Network who we are now delighted to announce are now formal group members of the Resistance Lab collective.xec
+Through this work we've been working closely with representatives from No Borders Manchester and Trans Safety Network who we are now delighted to announce are now formal group members of the Resistance Lab collective.
 
 ## No Borders Manchester
 
@@ -20,7 +20,7 @@ No Borders Manchester are an activist group which aims to challenge border regim
 
 These include campaigns to raise awareness and challenge the Home Office on issues like deportation and #Stoptheplane; English classes both in person and online; and the Signing Support Network which supports people going to 'sign' at Dallas Court Reporting centre. Resistance Lab was the impetus for [the imok bot we launched to support the Signing Support Network back in May](https://gfsc.studio/2021/05/12/imok-is-launched.html). No Borders Manchester also run a community football group, conversation classes, publish a No Borders zine, and launched the day-long No Borders Festival last year. 
 
-[https://nobordersmcr.com/](https://nobordersmcr.com/){:.btn} 
+[https://nobordersmcr.com/](https://nobordersmcr.com)
 
 ## Trans Safety Network
 
@@ -28,7 +28,7 @@ Trans Safety Network is a collective of trans people who research and publish in
 
 By highlighting anti-trans hate campaigns we hope to make trans people and community groups safer through awareness of active harms, and help mobilise allies and supporters to help us fight the growing wave of transphobia in the UK and internationally.
 
-[https://transsafety.network](https://transsafety.network){:.btn}
+[https://transsafety.network](https://transsafety.network)
 
 ## What's next?
 
