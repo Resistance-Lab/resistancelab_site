@@ -59,10 +59,18 @@ members:
     url: https://tapproject.co.uk
     logo: tap.svg
   -
+    name: Sites of Resistance
+    url: https://sitesofresistance.org/
+    logo: sor.svg
+  -
     name: Kids of Colour
     url: https://kidsofcolour.com
     logo: koc.svg
   -
-    name: Sites of Resistance
-    url: https://sitesofresistance.org/
-    logo: sor.svg
+    name: Trans Safety Network
+    url: https://transsafety.network/
+    logo: tsn.svg
+  -
+    name: No Borders Manchester
+    url: https://nobordersmcr.com/
+    logo: nbm.svg

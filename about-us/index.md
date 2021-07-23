@@ -26,7 +26,7 @@ Through workshops and meetings, we have worked together to analyse stop and sear
 
 ## Member organisations
 
-Member organisations include Geeks for Social Change, Kids of Colour, Northern Police Monitoring Project (NPMP), Race, Roots & Resistance (R3), The African Pot Project, and Sites of Resistance.
+Member organisations include Geeks for Social Change, Kids of Colour, Northern Police Monitoring Project (NPMP), Race, Roots & Resistance (R3), The African Pot Project, Sites of Resistance, Trans Safety Network, and No Borders Manchester.
 
 Please get in touch with us if your group is interested in collaborating with Resistance Lab.
 
