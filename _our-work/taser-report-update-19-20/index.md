@@ -1,6 +1,6 @@
 ---
-title: "Despite claims to the contrary, Taser usage by Greater Manchester Police has risen to its highest ever level"
-title_fancy: "Despite claims to the contrary, Taser usage by Greater Manchester Police has risen to its highest ever level"
+title: "Taser usage by Greater Manchester Police has risen to its highest ever level"
+title_fancy: "Taser usage by <span>Greater Manchester Police</span> has risen to its <span>highest ever level</span>"
 layout: article
 published: 2021-03-08
 teaser: |
@@ -45,7 +45,7 @@ Taken together, these events raise serious concerns about GMP’s transparency a
 
 ## Background
 
-In August 2020 Resistance Lab published [A Growing Threat to Life: Taser Usage by Greater Manchester Police](https://resistancelab.network/our-work/taser-report/index.html), a report documenting the intrinsic and potentially lethal threat posed by Taser in the hands of police in England and Wales. We wrote the report in response to the stories of the many victims of police Taser usage here in Greater Manchester and around the country. Since their introduction in 2003, 18 people have died following Taser usage by police and many more have sustained serious injury and trauma. In many cases, these individuals and their families have fought protracted battles through complaints processes, independent investigations and the courts, both to secure justice and alert the nation to the threat to life posed by Tasers in the hands of police. 
+In August 2020 Resistance Lab published [A Growing Threat to Life: Taser Usage by Greater Manchester Police](https://resistancelab.network/our-work/taser-report/index.html), a report documenting the intrinsic and potentially lethal threat posed by Taser in the hands of police in England and Wales. We wrote the report in response to the stories of the many victims of police Taser usage here in Greater Manchester and around the country. Since their introduction in 2003, 18 people have died following Taser usage by police and many more have sustained serious injury and trauma. In many cases, these individuals and their families have fought protracted battles through complaints processes, independent investigations and the courts, both to secure justice and alert the nation to the threat to life posed by Tasers in the hands of police.
 
 Drawing on the Home Office statistics and personal testimony from local community members, our report showed that these warnings from the victims and their families were not being heard. Tasers were being rolled out to more officers around the country and their use was becoming increasingly routinised. Between April 2017 and March 2019, Greater Manchester Police (GMP) saw a 73% increase in total Taser incidents. Moreover, GMP was disproportionately using the weapon against Black communities. In 2018/19, Black people in Greater Manchester were subject to Taser usage at nearly 4 times the rate of their white counterparts.
 
